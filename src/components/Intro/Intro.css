@@ -7,6 +7,8 @@
 .headingTitle {
 	color: var(--white);
 	align-self: baseline;
+	align-items: center;
+	justify-content: center;
 	margin: auto;
 	font-size: 2em;
 }

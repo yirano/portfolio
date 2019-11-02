@@ -1,0 +1,10 @@
+.lightHeading {
+	background-color: var(--blush);
+	height: 100vh;
+	display: flex;
+	color: var(--white);
+}
+
+#projects {
+	/* display: none; */
+}

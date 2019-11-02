@@ -1,0 +1,6 @@
+.aboutHeading {
+	background-color: var(--white);
+	height: 100vh;
+	display: flex;
+	color: var(--black);
+}

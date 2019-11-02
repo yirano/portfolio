@@ -1,10 +1,14 @@
 header {
 	position: absolute;
+	width: 100vw;
 }
 
 nav {
-	text-align: center;
-	width: 100vw;
+	margin: 0 80px;
+	width: -webkit-fill-available;
+	top: -50px;
+	opacity: 0;
+	transition: all 100ms;
 }
 
 nav a {
@@ -20,12 +24,22 @@ nav ul li {
 	padding: 6px 10px;
 }
 
-h1,
-h2,
-h3 {
-	font-weight: 300;
+.sticky {
+	position: fixed;
+	/* margin: 0px 80px; */
+	top: 10px;
+	opacity: 1;
+	transition: all 100ms;
 }
 
-h1 {
-	font-weight: 2.4em;
+.socialLinks {
+	float: left;
+}
+
+.navLinks {
+	float: right;
+}
+
+nav img {
+	width: 20px;
 }
