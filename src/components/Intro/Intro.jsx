@@ -8,7 +8,7 @@ export default function Intro() {
 		paddingLeft: '410px'
 	};
 	return (
-		<div className="heading">
+		<div className="heading" id="intro">
 			<div className="colors">
 				<div className="colorPal one" />
 				<div className="colorPal two" />
