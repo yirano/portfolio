@@ -1,0 +1,37 @@
+h1,
+h2,
+h3 {
+	font-weight: 300;
+	color: #f5f1e3;
+}
+
+h1 {
+	font-size: 4em;
+	display: inline;
+	margin: 20px;
+}
+
+h3 {
+	font-size: 1.4em;
+	margin-top: -10px;
+	letter-spacing: 0.02em;
+}
+
+.heading {
+	background-color: #2a2b2e;
+	height: 100vh;
+	padding-left: 300px;
+}
+
+.fonts {
+	display: inline-block;
+	margin: 10px;
+}
+.colorPal {
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	margin: 10px;
+	margin-top: 300px;
+	border-radius: 50%;
+}
