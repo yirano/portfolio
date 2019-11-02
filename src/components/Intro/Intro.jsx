@@ -3,23 +3,14 @@ import './Intro.css';
 import '../../fonts/fonts.css';
 
 export default function Intro() {
-	const m = {
-		margin: '0 auto',
-		paddingLeft: '410px'
-	};
 	return (
 		<div className="heading" id="intro">
-			<div className="colors">
-				<div className="colorPal one" />
-				<div className="colorPal two" />
-				<div className="colorPal four" />
-				<div className="colorPal eight" />
-				<div style={m}>
-					<div className="fonts">
-						<h1 className="fontTwo">Hello!</h1>
-						<h3 className="fontFour">My name is Tiffany</h3>
-					</div>
-				</div>
+			<div className="headingTitle">
+				<p>My name is Tiffany</p>
+				<h1>Hello!</h1>
+				<p className="alignRight">
+					&amp; I'm a <span className="highlight">Frontend Developer</span>
+				</p>
 			</div>
 		</div>
 	);

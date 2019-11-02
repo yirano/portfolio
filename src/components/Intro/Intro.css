@@ -1,37 +1,33 @@
-h1,
-h2,
-h3 {
-	font-weight: 300;
-	color: #f5f1e3;
-}
-
-h1 {
-	font-size: 4em;
-	display: inline;
-	margin: 20px;
-}
-
-h3 {
-	font-size: 1.4em;
-	margin-top: -10px;
-	letter-spacing: 0.02em;
-}
-
 .heading {
 	background-color: #2a2b2e;
 	height: 100vh;
-	padding-left: 300px;
+	display: flex;
 }
 
-.fonts {
-	display: inline-block;
-	margin: 10px;
+.headingTitle {
+	color: var(--white);
+	align-self: baseline;
+	margin: auto;
+	font-size: 2em;
 }
-.colorPal {
-	width: 180px;
-	height: 180px;
-	display: inline-block;
-	margin: 10px;
-	margin-top: 300px;
-	border-radius: 50%;
+
+.headingTitle h1 {
+	font-size: 3em;
+	margin: -10px 0 -10px;
+}
+
+.highlight {
+	color: var(--gold);
+	font-style: italic;
+}
+
+.headingTitle p {
+	font-size: 0.4em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height: 1.7em;
+}
+
+.alignRight {
+	text-align: right;
 }
