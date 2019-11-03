@@ -10,9 +10,6 @@ export class Intro extends Component {
 	render() {
 		return (
 			<section className="heading" id="intro">
-				<video id="backgroundVideo" autoPlay loop>
-					<source src={Video} type="video/mp4" className="backgroundVideo" />
-				</video>
 				<div className="headingTitle">
 					<div className="headingTitleBg" />
 					<div className="headingTitleWrap">
