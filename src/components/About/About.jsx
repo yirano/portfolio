@@ -5,8 +5,9 @@ import './About.css';
 export default function About() {
 	return (
 		<section className=" aboutHeading" id="aboutMe">
-			<div className="photo">{/* <img src={Self} alt="self portrait" /> */}</div>
-			<h1>This is About Me</h1>
+			<div className="">
+				<h1>This is About Me</h1>
+			</div>
 		</section>
 	);
 }
