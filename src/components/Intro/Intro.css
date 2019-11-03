@@ -1,5 +1,4 @@
 .heading {
-<<<<<<< HEAD
 	position: relative;
 	background-color: #fff;
 	background: url('../../images/headerImg.jpeg') no-repeat;
@@ -7,10 +6,6 @@
 	border: 50px solid #fff;
 	width: 100vw;
 	z-index: -999;
-=======
-	background-color: transparent;
-	height: 100vh;
->>>>>>> header-video
 	display: flex;
 	justify-content: center;
 }
@@ -25,7 +20,6 @@
 }
 
 .headingTitle {
-<<<<<<< HEAD
 	align-self: center;
 	padding: 50px 50px;
 	width: 396px;
@@ -50,42 +44,6 @@
 
 .alignLeft {
 	text-align: left;
-=======
-	position: relative;
-	color: var(--blush);
-	align-self: baseline;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
-	font-size: 2em;
-	opacity: 1;
-}
-
-.headingTitleBg {
-	padding: 120px 0;
-	background-color: #fff;
-	min-width: 450px;
-	height: 300px;
-	opacity: 0.1;
-	border-radius: 5px;
-}
-
-.headingTitleWrap {
-	position: absolute;
-	top: 78px;
-	left: 81px;
-}
-
-.headingTitle h1 {
-	font-size: 3em;
-	margin: -10px 0 -10px;
-	color: var(--black);
-}
-
-.highlight {
-	/* color: var(--gold); */
-	/* font-style: italic; */
->>>>>>> header-video
 }
 
 .uppercase {
