@@ -23,17 +23,25 @@ main {
 }
 
 section {
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
-}
-
-h1 {
-	font-family: 'Quattrocento', serif;
-	font-weight: 2.4em;
 }
 
 h1,
 h2,
 h3 {
+	font-family: 'Quattrocento', serif;
+}
+
+h1 {
 	font-weight: 300;
+	font-size: 4.8em;
+}
+
+h2 {
+	font-size: 3.2em;
+}
+
+h3 {
+	font-size: 2.2em;
 }
