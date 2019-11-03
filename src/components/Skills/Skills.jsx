@@ -10,21 +10,8 @@ import Sass from '../../images/icons/sass.png';
 import UX from '../../images/icons/ux.png';
 
 export default class Skills extends React.Component {
-	showJSCount = () => {
-		let jsCount = 0;
-		let htmlCount = 0;
-		fetch('http://api.github.com/users/yirano/repos').then((response) => response.json()).then((data) =>
-			data.map((x) => {
-				if (x.language === 'JavaScript') {
-					return (jsCount += 1);
-				}
-				console.log('JavaScript: ', jsCount);
-			})
-		);
-	};
-
 	showHtmlCount = () => {
-		let htmlCount = 0;
+		// let htmlCount = 0;
 		fetch('http://api.github.com/users/yirano/repos').then((response) => response.json()).then((data) =>
 			data.map((x) => {
 				console.log(x);
@@ -43,7 +30,7 @@ export default class Skills extends React.Component {
 								<h4>HTML3/CSS3</h4>
 							</div>
 						</div>
-						<div className="skillCard js" onMouseEnter={this.showJSCount}>
+						<div className="skillCard js">
 							<div className="cardTitle">
 								<img src={Javascript} alt="Javascript icon" />
 								<h4>Javascript</h4>
