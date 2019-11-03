@@ -5,6 +5,7 @@
 	background-size: cover;
 	border: 50px solid #fff;
 	width: 100vw;
+	height: 100vh;
 	z-index: -999;
 	display: flex;
 	justify-content: center;
@@ -21,7 +22,7 @@
 
 .headingTitle {
 	align-self: center;
-	padding: 50px 50px;
+	padding: 50px 60px;
 	width: 396px;
 	background-color: rgba(255, 255, 255, 0.726);
 	border-radius: 4px;
