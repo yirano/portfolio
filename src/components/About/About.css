@@ -1,24 +1,9 @@
-.aboutHeading {
-	background-color: #fff;
-	height: 100vh;
-	display: flex;
-	color: var(--black);
-}
-
 #aboutMe {
 	position: relative;
-}
-
-.photo {
-	height: 500px;
-	width: 500px;
-	overflow-x: hidden;
-	border-radius: 50%;
-}
-.photo img {
-	height: 600px;
-	bottom: 0;
-	left: 0;
-	margin-left: 29px;
-	margin-top: -36px;
+	background-color: #fff;
+	padding: 50px 50px;
+	width: 93vw;
+	border: 4px double var(--black);
+	margin: 0px auto;
+	margin-bottom: 50px;
 }
