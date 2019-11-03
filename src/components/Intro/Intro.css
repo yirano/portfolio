@@ -1,26 +1,44 @@
 .heading {
-	background-color: #2a2b2e;
+	background-color: transparent;
 	height: 100vh;
 	display: flex;
 }
 
 .headingTitle {
-	color: var(--white);
+	position: relative;
+	color: var(--blush);
 	align-self: baseline;
 	align-items: center;
 	justify-content: center;
 	margin: auto;
 	font-size: 2em;
+	opacity: 1;
+}
+
+.headingTitleBg {
+	padding: 120px 0;
+	background-color: #fff;
+	min-width: 450px;
+	height: 300px;
+	opacity: 0.1;
+	border-radius: 5px;
+}
+
+.headingTitleWrap {
+	position: absolute;
+	top: 78px;
+	left: 81px;
 }
 
 .headingTitle h1 {
 	font-size: 3em;
 	margin: -10px 0 -10px;
+	color: var(--black);
 }
 
 .highlight {
-	color: var(--gold);
-	font-style: italic;
+	/* color: var(--gold); */
+	/* font-style: italic; */
 }
 
 .headingTitle p {
@@ -32,4 +50,14 @@
 
 .alignRight {
 	text-align: right;
+}
+
+#backgroundVideo {
+	position: absolute;
+	top: 0;
+	height: auto;
+	min-height: fit-content;
+	min-width: fit-content;
+	width: 100vw;
+	opacity: 0.9;
 }
