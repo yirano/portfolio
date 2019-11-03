@@ -4,7 +4,6 @@ header {
 }
 
 nav {
-	margin: 0 80px;
 	width: -webkit-fill-available;
 	top: -50px;
 	opacity: 0;
@@ -26,10 +25,13 @@ nav ul li {
 
 .sticky {
 	position: fixed;
-	/* margin: 0px 80px; */
-	top: 10px;
+	top: 0px;
 	opacity: 1;
 	transition: all 100ms;
+	background-color: var(--black);
+	padding: 3px;
+	width: 100%;
+	z-index: 9999;
 }
 
 .socialLinks {

@@ -3,7 +3,7 @@ import './Projects.css';
 
 export default function Projects() {
 	return (
-		<section className="headingTitle lightHeading" id="projects">
+		<section className=" lightHeading" id="projects">
 			<h1 className="lightBg">These are my Projects</h1>
 		</section>
 	);
