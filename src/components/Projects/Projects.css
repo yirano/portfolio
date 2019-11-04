@@ -14,9 +14,9 @@
 }
 
 .projectShelfCard:hover {
-	transform: rotateX(180deg);
+	/* transform: rotateX(180deg);
 	opacity: 0;
-	transition: all 600ms;
+	transition: all 600ms; */
 }
 
 .projectShelf {
@@ -29,7 +29,7 @@
 
 .projectShelf img {
 	width: 100%;
-	transition: all 200ms;
+	transition: all 600ms;
 }
 
 .imgControl {
@@ -37,6 +37,9 @@
 }
 
 .cardFlip {
+	transform: rotateX(180deg);
+	opacity: 0;
+	transition: all 600ms;
 }
 
 .projectShelfTitle {
