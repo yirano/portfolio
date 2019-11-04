@@ -10,7 +10,6 @@ export class ProjectBook extends Component {
 	}
 
 	flip = (id) => {
-		console.log(id);
 		this.state.projects.map((project) => {
 			this.setState((prevState) => {
 				if (project.id === id) {

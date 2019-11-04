@@ -1,3 +1,13 @@
+@keyframes opac {
+	0% {
+		opacity: 1;
+	}
+	55%,
+	100% {
+		opacity: 0;
+	}
+}
+
 .projects {
 	display: flex;
 	align-items: center;
@@ -41,8 +51,8 @@
 
 .cardFlip {
 	transform: rotateX(180deg);
-	opacity: 0;
-	transition: all 600ms;
+	animation: opac 400ms forwards;
+	/* transition: all 600ms; */
 }
 
 .projectShelfTitle {
