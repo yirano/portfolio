@@ -23,12 +23,6 @@
 	justify-content: center;
 }
 
-.projectShelfCard:hover {
-	/* transform: rotateX(180deg);
-	opacity: 0;
-	transition: all 600ms; */
-}
-
 .projectBook {
 	display: flex;
 }
@@ -52,7 +46,6 @@
 .cardFlip {
 	transform: rotateX(180deg);
 	animation: opac 400ms forwards;
-	/* transition: all 600ms; */
 }
 
 .projectShelfTitle {
