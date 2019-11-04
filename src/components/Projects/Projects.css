@@ -48,6 +48,8 @@
 .projectShelfTitle {
 	position: absolute;
 	align-self: center;
+	opacity: 0;
+	transition: all 500ms;
 }
 
 .hide {

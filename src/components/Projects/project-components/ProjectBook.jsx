@@ -22,6 +22,10 @@ export class ProjectBook extends Component {
 	};
 
 	render(props) {
+		const opacity = {
+			opacity: 1,
+			transition: 'all 600ms'
+		};
 		return (
 			<div className="projectBook">
 				{this.state.projects.map(({ id, image, projectName, active }) => (
@@ -32,7 +36,9 @@ export class ProjectBook extends Component {
 						onMouseLeave={() => this.flip(id)}
 					>
 						<img src={image} alt="" className={active ? 'cardFlip' : ''} />
-						<h3 className="projectShelfTitle">{projectName}</h3>
+						<h3 className="projectShelfTitle" style={active ? opacity : null}>
+							{projectName}
+						</h3>
 					</div>
 				))}
 			</div>
