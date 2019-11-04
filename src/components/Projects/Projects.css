@@ -7,68 +7,45 @@
 	padding: 50px;
 }
 
-.projectPresent {
-	display: flex;
-}
-
-.projectImage {
+.projectShelfCard {
 	position: relative;
 	display: flex;
 	justify-content: center;
 }
 
-.projectImage img {
-	width: 100%;
-}
-
-.projectImage img:hover {
-	transform: skewY(2);
-	transition: all 200ms linear;
-}
-
-.projectTitle {
-	position: absolute;
-	align-self: center;
+.projectShelfCard:hover {
+	transform: rotateX(180deg);
 	opacity: 0;
-	transition: all 200ms;
+	transition: all 600ms;
 }
 
-.projectDisplay {
+.projectShelf {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--blush);
 	width: 100%;
 	overflow: hidden;
 }
 
-.projectDisplay img {
+.projectShelf img {
 	width: 100%;
 	transition: all 200ms;
 }
 
-.projectDisplay img:hover {
-	transform: scale(2);
-	transition: transform 200ms;
+.imgControl {
+	transition: all 600ms;
 }
 
-.projectInfo {
-	border: 4px double var(--blush);
-	border-radius: 5px;
-	color: var(--black);
-	width: -webkit-fill-available;
-	height: 100%;
-	padding: 30px;
-	margin: 0 20px;
-	align-self: flex-start;
+.cardFlip {
 }
 
-.projectInfo h3 {
-	text-align: center;
+.projectShelfTitle {
+	position: absolute;
+	align-self: center;
 }
 
 .hide {
-	opacity: 0;
+	opacity: 0.3;
 	transition: opacity 200ms;
 }
 
