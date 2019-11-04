@@ -9,13 +9,16 @@
 	display: flex;
 	align-items: center;
 	background-color: #fff;
-	height: 700px;
+	height: auto;
 	overflow: hidden;
 	padding: 50px;
 }
 
 .projectPresent {
 	display: flex;
+}
+
+.projectShelf {
 }
 
 .projectDisplay {

@@ -6,7 +6,7 @@ export class Projects extends Component {
 	constructor() {
 		super();
 		this.state = {
-			active: true,
+			active: false,
 			projects: [
 				{
 					id: 0,
@@ -15,7 +15,7 @@ export class Projects extends Component {
 					projectGit: 'https://github.com/yirano/react-bookmark_lp',
 					projectURL: 'https://yirano.github.io/react-bookmark_lp/',
 					projectLang: [ 'html', 'css', 'javascript', 'react' ],
-					active: true
+					active: false
 				},
 				{
 					id: 1,
@@ -59,7 +59,16 @@ export class Projects extends Component {
 							<button onClick={this.closePresent}>[close]</button>
 						</div>
 					) : (
-						<div key={project.id} className="projectShelf" />
+						<div key={project.id} className="projectShelf">
+							<div>
+								<div className="projectDisplay">
+									<img src={BookmarkLP} alt="Bookmark LP" />
+								</div>
+								<div className="projectInfo">
+									<h3>{project.projectName}</h3>
+								</div>
+							</div>
+						</div>
 					);
 				})}
 			</section>
