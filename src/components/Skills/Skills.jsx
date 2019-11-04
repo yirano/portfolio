@@ -68,7 +68,7 @@ export default class Skills extends React.Component {
 					<div className="skillCard ux">
 						<div className="cardTitle">
 							<img src={UX} alt="UX icon" />
-							<h4>User Experience</h4>
+							<h4>User Testing</h4>
 						</div>
 					</div>
 				</div>

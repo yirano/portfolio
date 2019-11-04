@@ -9,21 +9,41 @@
 	display: flex;
 	align-items: center;
 	background-color: #fff;
-	height: 50vh;
-	border: 2px solid blue;
+	height: 700px;
+	overflow: hidden;
+	padding: 50px;
 }
 
 .projectDisplay {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	background-color: var(--blush);
-	height: 100%;
-	width: 55%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.projectDisplay img {
+	height: 500px;
+	transition: all 200ms;
+}
+
+.projectDisplay img:hover {
+	transform: scale(2);
+	transition: transform 200ms;
 }
 
 .projectInfo {
-	background-color: #fff;
+	border: 4px double var(--blush);
+	border-radius: 5px;
 	color: var(--black);
 	width: -webkit-fill-available;
-	border: 2px solid red;
+	height: 100%;
+	padding: 30px;
+	margin: 0 20px;
+	align-self: flex-start;
+}
+
+.projectInfo h3 {
+	text-align: center;
 }
