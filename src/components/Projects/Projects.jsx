@@ -45,6 +45,10 @@ export class Projects extends Component {
       return (this.state.active = !this.state.active);
     });
   };
+  showTitle = () => {
+    const title = document.getElementById("projectTitle");
+    title.classList.add("show");
+  };
   render() {
     return (
       <section className="projects" id="projects">
@@ -61,12 +65,10 @@ export class Projects extends Component {
             </div>
           ) : (
             <div key={project.id} className="projectShelf">
-              <div>
-                <div className="projectImage">
-                  <img src={BookmarkLP} alt="Bookmark LP" />
-                  <div className="projectTitle">
-                    <h3>{project.projectName}</h3>
-                  </div>
+              <div className="projectImage" onMouseEnter={this.showTitle}>
+                <img src={BookmarkLP} alt="Bookmark LP" />
+                <div className="projectTitle" id="projectTitle">
+                  <h3>{project.projectName}</h3>
                 </div>
               </div>
             </div>
