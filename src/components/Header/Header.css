@@ -1,0 +1,48 @@
+header {
+	position: absolute;
+	width: 100vw;
+}
+
+nav {
+	width: -webkit-fill-available;
+	top: -50px;
+	opacity: 0;
+	transition: all 100ms;
+	z-index: 999;
+}
+
+nav a {
+	color: var(--white);
+	text-decoration: none;
+	font-size: 0.7em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 6px 10px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0px;
+	opacity: 1;
+	transition: all 100ms;
+	background-color: var(--black);
+	padding: 3px;
+	width: 100%;
+	z-index: 9999;
+}
+
+.socialLinks {
+	float: left;
+}
+
+.navLinks {
+	float: right;
+}
+
+nav img {
+	width: 20px;
+}

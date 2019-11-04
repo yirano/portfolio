@@ -1,0 +1,32 @@
+.about {
+	position: relative;
+	display: flex;
+	grid-template-columns: repeat(3, 1fr);
+	width: 100%;
+	padding: 0 50px;
+	margin-bottom: 50px;
+}
+
+.aboutMeText .caption {
+	width: 300px;
+	letter-spacing: 0.1em;
+}
+
+.skillCards {
+	text-align: center;
+	;
+}
+
+.skillCard {
+	display: inline-block;
+	width: 20%;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 40px 30px;
+	height: 200px;
+	text-align: center;
+}
+
+.skillCard img {
+	width: 45%;
+}

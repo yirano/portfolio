@@ -1,0 +1,56 @@
+.heading {
+	position: relative;
+	background-color: #fff;
+	background: url('../../images/headerImg.jpeg') no-repeat;
+	background-size: cover;
+	border: 50px solid #fff;
+	width: 100vw;
+	height: 100vh;
+	z-index: -999;
+	display: flex;
+	justify-content: center;
+}
+
+.heading::after {
+	content: '';
+	background-color: #fff;
+	height: inherit;
+	width: inherit;
+	position: absolute;
+	opacity: 0.1;
+}
+
+.headingTitle {
+	align-self: center;
+	padding: 50px 60px;
+	width: 396px;
+	background-color: rgba(255, 255, 255, 0.726);
+	border-radius: 4px;
+	color: var(--black);
+	z-index: 9998;
+}
+
+.headingTitle h1 {
+	text-align: center;
+}
+
+.caption {
+	font-size: 0.8em;
+	letter-spacing: 0.2em;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 5em;
+}
