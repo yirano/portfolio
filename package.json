@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "portfolio",
+=======
+  "name": "myportfolio",
+>>>>>>> 2b4e9c61c44942603a7de45d110261546a95ca3d
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,6 +31,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "main": "index.js",
   "repository": {
@@ -41,4 +46,7 @@
   "homepage": "https://github.com/yirano/portfolio#readme",
   "devDependencies": {},
   "description": ""
+=======
+  }
+>>>>>>> 2b4e9c61c44942603a7de45d110261546a95ca3d
 }
