@@ -1,10 +1,29 @@
-.lightHeading {
+/* .lightHeading {
 	background-color: var(--blush);
-	height: 100vh;
 	display: flex;
 	color: var(--white);
+	align-items: center;
+} */
+
+.projects {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	height: 50vh;
+	border: 2px solid blue;
 }
 
-#projects {
-	/* display: none; */
+.projectDisplay {
+	display: flex;
+	align-items: center;
+	background-color: var(--blush);
+	height: 100%;
+	width: 55%;
+}
+
+.projectInfo {
+	background-color: #fff;
+	color: var(--black);
+	width: -webkit-fill-available;
+	border: 2px solid red;
 }
