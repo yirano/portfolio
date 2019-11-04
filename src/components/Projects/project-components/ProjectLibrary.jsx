@@ -8,7 +8,7 @@ const projectLibrary = [
 		projectGit: 'https://github.com/yirano/react-bookmark_lp',
 		projectURL: 'https://yirano.github.io/react-bookmark_lp/',
 		projectLang: [ 'html', 'css', 'javascript', 'react' ],
-		active: false
+		active: true
 	},
 	{
 		id: 1,
