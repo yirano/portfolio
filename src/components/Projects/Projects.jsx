@@ -61,11 +61,11 @@ export class Projects extends Component {
 					) : (
 						<div key={project.id} className="projectShelf">
 							<div>
-								<div className="projectDisplay">
+								<div className="projectImage">
 									<img src={BookmarkLP} alt="Bookmark LP" />
-								</div>
-								<div className="projectInfo">
-									<h3>{project.projectName}</h3>
+									<div className="projectTitle">
+										<h3>{project.projectName}</h3>
+									</div>
 								</div>
 							</div>
 						</div>

@@ -18,7 +18,19 @@
 	display: flex;
 }
 
-.projectShelf {
+.projectImage {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.projectImage img {
+	width: 100%;
+}
+
+.projectTitle {
+	position: absolute;
+	align-self: center;
 }
 
 .projectDisplay {
