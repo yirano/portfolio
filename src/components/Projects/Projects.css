@@ -18,33 +18,21 @@
 	position: relative;
 }
 
-.projectShelfCard {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	cursor: pointer;
-	margin: 4px;
-}
-
 .projectBook {
 	display: flex;
 	flex-wrap: wrap;
 	transition: all 600ms;
 	align-items: center;
-}
-
-.projectShelf {
 	align-items: center;
 	justify-content: center;
-	overflow: hidden;
 }
 
 .projectShelfCard {
-	flex: 6;
-	text-align: center;
-	width: 25%;
-	flex-basis: auto;
-	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-basis: 220px;
+	align-self: stretch;
+	margin: 2px;
 }
 
 .projectShelfCard:nth-child(even) {
@@ -52,13 +40,11 @@
 }
 
 .projectShelfCard:nth-child(odd) {
-	flex-grow: 2;
+	flex-grow: 1;
 }
 
-.projectShelf img {
-	max-height: auto;
-	min-width: auto;
-	max-width: 100%;
+.projectShelfCard img {
+	width: 100%;
 	transition: all 600ms;
 }
 
@@ -69,11 +55,11 @@
 
 .projectShelfTitle {
 	position: absolute;
+	text-align: center;
 	align-self: center;
 	opacity: 0;
 	font-size: 1.2em;
-	font-family: 'Montserrat',
-		sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	transition: all 500ms;
 }
 
