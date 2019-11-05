@@ -1,6 +1,23 @@
-.contactHeading {
-	background-color: #fff;
-	height: 100vh;
-	display: flex;
-	color: var(--black);
+.contact {
+	border: 18px solid #e2e9f0;
+	height: 900px;
+	width: 95%;
+	padding: 30px;
+	overflow: auto;
+	margin: 40px auto;
+}
+
+.contact input {
+	height: 30px;
+	width: 320px;
+	margin: 10px;
+	padding: 4px 19px;
+	border-radius: 5px;
+	border: 1px solid #e8e8e8;
+	display: block;
+}
+
+form {
+	margin: auto;
+	width: 100%;
 }
