@@ -29,17 +29,6 @@
 	display: flex;
 }
 
-.projectPresent {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.projectPresent img {
-	width: 400px !important;
-	overflow: hidden;
-}
-
 .projectShelf {
 	display: flex;
 	align-items: center;
@@ -76,4 +65,19 @@
 .show {
 	opacity: 1;
 	transition: all 200ms;
+}
+
+.getRidOf {
+	display: none;
+}
+
+.projectPresent {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.projectPresent img {
+	width: 400px;
+	overflow: hidden;
 }

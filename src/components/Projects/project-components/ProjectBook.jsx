@@ -57,7 +57,7 @@ export class ProjectBook extends Component {
 						</div>
 					))}
 				</div>
-				<div style={this.state.switch ? null : hide}>
+				<div className={this.state.switch ? '' : 'getRidOf'}>
 					{this.state.projects.map(({ projectName, id, image }) => {
 						if (this.state.projectID === id) {
 							return (
