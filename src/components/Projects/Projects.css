@@ -10,41 +10,24 @@
 }
 
 .projects {
-	display: flex;
 	align-items: center;
 	background-color: #fff;
-	height: auto;
-	overflow: hidden;
-	position: relative;
 }
 
 .projectBook {
-	display: flex;
-	flex-wrap: wrap;
+	columns: 3;
+	column-gap: 3px;
 	transition: all 600ms;
-	align-items: center;
-	align-items: center;
-	justify-content: center;
 }
 
 .projectShelfCard {
-	display: flex;
-	justify-content: center;
-	flex-basis: 220px;
-	align-self: stretch;
-	margin: 2px;
-}
-
-.projectShelfCard:nth-child(even) {
-	flex-grow: 3;
-}
-
-.projectShelfCard:nth-child(odd) {
-	flex-grow: 1;
+	display: inline;
+	position: relative;
+	break-inside: avoid;
 }
 
 .projectShelfCard img {
-	width: 100%;
+	max-width: 100%;
 	transition: all 600ms;
 }
 
@@ -55,8 +38,7 @@
 
 .projectShelfTitle {
 	position: absolute;
-	text-align: center;
-	align-self: center;
+	top: 0;
 	opacity: 0;
 	font-size: 1.2em;
 	font-family: 'Montserrat', sans-serif;
