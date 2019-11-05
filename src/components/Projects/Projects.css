@@ -21,9 +21,11 @@
 }
 
 .projectShelfCard {
-	display: inline;
+	display: flex;
 	position: relative;
 	break-inside: avoid;
+	margin-bottom: 3px;
+	justify-content: center;
 }
 
 .projectShelfCard img {
@@ -36,13 +38,59 @@
 	animation: opac 400ms forwards;
 }
 
-.projectShelfTitle {
+.projectCardText {
 	position: absolute;
 	top: 0;
+	padding: 30px 40px;
 	opacity: 0;
-	font-size: 1.2em;
 	font-family: 'Montserrat', sans-serif;
 	transition: all 500ms;
+}
+
+.projectCardTitle {
+	margin: 20px 0;
+	padding-bottom: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 0.9em;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid rgba(192, 192, 192, 0.548);
+}
+
+.projectDesc {
+	font-size: 0.9em;
+	margin-bottom: 13px;
+	color: var(--dark-gray);
+	letter-spacing: 0.04em;
+}
+
+.projectCardList {
+	position: absolute;
+	bottom: 40px;
+	right: 10px;
+	list-style: none;
+	opacity: 0;
+}
+
+.projectCardList li {
+	display: inline-block;
+	padding: 6px 12px;
+}
+
+.projectCardList a {
+	text-decoration: none;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	letter-spacing: 0.16em;
+}
+
+a::after {
+	content: '';
+	width: 100px;
+	height: 9px;
+	border-bottom: 3px solid var(--gold);
 }
 
 .hide {
@@ -58,44 +106,4 @@
 .getRidOf {
 	display: none;
 	transition: display 600ms;
-}
-
-.projectPresent {
-	height: auto;
-	display: flex;
-	transition: all 600ms;
-}
-
-.projectPresent img {
-	overflow: hidden;
-}
-
-.leftContent,
-.rightContent {
-	width: 50%;
-	position: relative;
-}
-
-.rightContent {
-	padding: 20px;
-}
-
-.rightContent h3 {
-	text-align: center;
-}
-
-.close {
-	position: absolute;
-	top: 0;
-	right: 20px;
-	border: none;
-	padding: 20px;
-	font-size: 1em;
-	outline: none;
-}
-
-.close .highlight:hover {
-	transform: scale(1.1);
-	color: red;
-	transition: all 200ms;
 }

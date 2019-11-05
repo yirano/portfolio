@@ -13,6 +13,7 @@ const projectLibrary = [
 		projectGit: 'https://github.com/yirano/react-bookmark_lp',
 		projectURL: 'https://yirano.github.io/react-bookmark_lp/',
 		projectLang: [ 'html', 'css', 'javascript', 'react' ],
+		projectDesc: 'This project was developed to challenge myself in my studies of ReactJS. ',
 		active: false
 	},
 	{

@@ -24,15 +24,6 @@ export class Projects extends Component {
 		});
 	};
 
-	switch = (id) => {
-		this.setState((prevState) => {
-			return (prevState.switch = !prevState.switch);
-		});
-		this.setState((prevState) => {
-			return (prevState.projectID = id);
-		});
-	};
-
 	render(props) {
 		const opacity = {
 			opacity: 1,
@@ -41,52 +32,38 @@ export class Projects extends Component {
 
 		return (
 			<div className="projectShelf">
-				<div className={this.state.switch ? 'getRidOf' : 'projectBook'}>
-					{this.state.projects.map(({ id, image, projectName, active }) => (
-						<div
-							key={id}
-							className="projectShelfCard"
-							onMouseEnter={() => this.flip(id)}
-							onMouseLeave={() => this.flip(id)}
-							onClick={() => this.switch(id)}
-						>
-							<img src={image} alt="" className={active ? 'cardFlip' : ''} />
-							<h3 className="projectShelfTitle" style={active ? opacity : null}>
-								{projectName}
-							</h3>
-						</div>
-					))}
-				</div>
-				{this.state.projects.map(({ projectName, id, image, projectURL, projectGit, projectLang }) => {
-					if (this.state.projectID === id) {
-						return (
-							<div key={id} className={this.state.switch ? 'projectPresent' : 'getRidOf'}>
-								<div key={id} className="leftContent">
-									<img src={image} alt="" />
+				<div className="projectBook">
+					{this.state.projects.map(
+						({ id, image, projectName, active, projectGit, projectURL, projectLang, projectDesc }) => (
+							<div
+								key={id}
+								className="projectShelfCard"
+								onMouseEnter={() => this.flip(id)}
+								onMouseLeave={() => this.flip(id)}
+								onClick={() => this.switch(id)}
+							>
+								<img src={image} alt="" className={active ? 'cardFlip' : ''} />
+								<div className="projectCardText" style={active ? opacity : null}>
+									<h3 className="projectCardTitle"> {projectName}</h3>
+									<p className="projectDesc">{projectDesc}</p>
 								</div>
-								<div className="rightContent">
-									<h3>{projectName}</h3>
-									<ul>
-										<li>
-											<a href={projectURL} target="_blank" rel="noopener noreferrer">
-												Live Page
-											</a>
-										</li>
-										<li>
-											<a href={projectGit} target="_blank" rel="noopener noreferrer">
-												Project Github
-											</a>
-										</li>
-										<li>{projectLang.join(', ').toUpperCase()}</li>
-									</ul>
-									<button onClick={() => this.switch(id)} className="close">
-										[<span className="highlight">Back</span>]
-									</button>
-								</div>
+
+								<ul className="projectCardList" style={active ? opacity : null}>
+									<li>
+										<a href={projectURL} target="_blank" rel="noopener noreferrer">
+											Live Page
+										</a>
+									</li>
+									<li>
+										<a href={projectGit} target="_blank" rel="noopener noreferrer">
+											Github
+										</a>
+									</li>
+								</ul>
 							</div>
-						);
-					}
-				})}
+						)
+					)}
+				</div>
 			</div>
 		);
 	}
