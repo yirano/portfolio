@@ -27,6 +27,7 @@
 
 .projectBook {
 	display: flex;
+	transition: display 600ms;
 }
 
 .projectShelf {
@@ -69,15 +70,45 @@
 
 .getRidOf {
 	display: none;
+	transition: display 600ms;
 }
 
 .projectPresent {
-	position: absolute;
-	top: 0;
-	left: 0;
+	height: auto;
+	display: flex;
+	transition: all 600ms;
 }
 
 .projectPresent img {
-	width: 400px;
 	overflow: hidden;
+}
+
+.leftContent,
+.rightContent {
+	width: 50%;
+	position: relative;
+}
+
+.rightContent {
+	padding: 20px;
+}
+
+.rightContent h3 {
+	text-align: center;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	border: none;
+	padding: 20px;
+	font-size: 1em;
+	outline: none;
+}
+
+.close .highlight:hover {
+	transform: scale(1.1);
+	color: red;
+	transition: all 200ms;
 }

@@ -36,12 +36,10 @@ export class ProjectBook extends Component {
 			opacity: 1,
 			transition: 'all 600ms'
 		};
-		const hide = {
-			opacity: 0
-		};
+
 		return (
 			<div className="projects">
-				<div className="projectBook" style={this.state.switch ? hide : null}>
+				<div className={this.state.switch ? 'getRidOf' : 'projectBook'}>
 					{this.state.projects.map(({ id, image, projectName, active }) => (
 						<div
 							key={id}
@@ -57,18 +55,36 @@ export class ProjectBook extends Component {
 						</div>
 					))}
 				</div>
-				<div className={this.state.switch ? '' : 'getRidOf'}>
-					{this.state.projects.map(({ projectName, id, image }) => {
-						if (this.state.projectID === id) {
-							return (
-								<div key={id} className="projectPresent">
+				{this.state.projects.map(({ projectName, id, image, projectURL, projectGit, projectLang }) => {
+					if (this.state.projectID === id) {
+						return (
+							<div key={id} className={this.state.switch ? 'projectPresent' : 'getRidOf'}>
+								<div key={id} className="leftContent">
 									<img src={image} alt="" />
-									<h4>{projectName}</h4>
 								</div>
-							);
-						}
-					})}
-				</div>
+								<div className="rightContent">
+									<h3>{projectName}</h3>
+									<ul>
+										<li>
+											<a href={projectURL} target="_blank" rel="noopener noreferrer">
+												Live Page
+											</a>
+										</li>
+										<li>
+											<a href={projectGit} target="_blank" rel="noopener noreferrer">
+												Project Github
+											</a>
+										</li>
+										<li>{projectLang.join(', ').toUpperCase()}</li>
+									</ul>
+									<button onClick={() => this.switch(id)} className="close">
+										[<span className="highlight">Back</span>]
+									</button>
+								</div>
+							</div>
+						);
+					}
+				})}
 			</div>
 		);
 	}
