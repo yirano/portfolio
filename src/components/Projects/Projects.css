@@ -23,22 +23,29 @@
 	display: flex;
 	justify-content: center;
 	cursor: pointer;
+	margin: 4px;
 }
 
 .projectBook {
 	display: flex;
+	flex-wrap: wrap;
 	transition: display 600ms;
 }
 
 .projectShelf {
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
 }
 
+.projectShelfCard {
+	width: 32%;
+	text-align: center;
+}
+
 .projectShelf img {
-	width: 100%;
+	height: auto;
+	max-width: 100%;
 	transition: all 600ms;
 }
 
