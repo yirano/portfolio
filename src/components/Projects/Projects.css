@@ -14,7 +14,6 @@
 	background-color: #fff;
 	height: auto;
 	overflow: hidden;
-	padding: 50px;
 	position: relative;
 }
 
@@ -29,7 +28,7 @@
 .projectBook {
 	display: flex;
 	flex-wrap: wrap;
-	transition: display 600ms;
+	transition: all 600ms;
 }
 
 .projectShelf {
@@ -39,17 +38,13 @@
 }
 
 .projectShelfCard {
-	width: 32%;
+	flex: 1;
 	text-align: center;
 }
 
 .projectShelf img {
 	height: auto;
 	max-width: 100%;
-	transition: all 600ms;
-}
-
-.imgControl {
 	transition: all 600ms;
 }
 
