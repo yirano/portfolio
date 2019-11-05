@@ -2,6 +2,7 @@
 	0% {
 		opacity: 1;
 	}
+
 	55%,
 	100% {
 		opacity: 0;
@@ -29,6 +30,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	transition: all 600ms;
+	align-items: center;
 }
 
 .projectShelf {
@@ -38,12 +40,24 @@
 }
 
 .projectShelfCard {
-	flex: 1;
+	flex: 6;
 	text-align: center;
+	width: 25%;
+	flex-basis: auto;
+	height: auto;
+}
+
+.projectShelfCard:nth-child(even) {
+	flex-grow: 3;
+}
+
+.projectShelfCard:nth-child(odd) {
+	flex-grow: 2;
 }
 
 .projectShelf img {
-	height: auto;
+	max-height: auto;
+	min-width: auto;
 	max-width: 100%;
 	transition: all 600ms;
 }
@@ -57,6 +71,9 @@
 	position: absolute;
 	align-self: center;
 	opacity: 0;
+	font-size: 1.2em;
+	font-family: 'Montserrat',
+		sans-serif;
 	transition: all 500ms;
 }
 
