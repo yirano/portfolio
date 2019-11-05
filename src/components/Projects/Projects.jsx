@@ -40,7 +40,6 @@ export class Projects extends Component {
 								className="projectShelfCard"
 								onMouseEnter={() => this.flip(id)}
 								onMouseLeave={() => this.flip(id)}
-								onClick={() => this.switch(id)}
 							>
 								<img src={image} alt="" className={active ? 'cardFlip' : ''} />
 								<div className="projectCardText" style={active ? opacity : null}>

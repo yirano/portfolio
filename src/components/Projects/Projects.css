@@ -36,6 +36,7 @@
 .cardFlip {
 	transform: rotateX(180deg);
 	animation: opac 400ms forwards;
+	animation-delay: 90ms;
 }
 
 .projectCardText {

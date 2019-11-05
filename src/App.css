@@ -46,3 +46,11 @@ h2 {
 h3 {
 	font-size: 2.2em;
 }
+
+a:hover {
+	font-weight: 600;
+}
+
+a:visited {
+	color: inherit;
+}
