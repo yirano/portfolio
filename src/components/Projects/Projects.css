@@ -15,16 +15,29 @@
 	height: auto;
 	overflow: hidden;
 	padding: 50px;
+	position: relative;
 }
 
 .projectShelfCard {
 	position: relative;
 	display: flex;
 	justify-content: center;
+	cursor: pointer;
 }
 
 .projectBook {
 	display: flex;
+}
+
+.projectPresent {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.projectPresent img {
+	width: 400px !important;
+	overflow: hidden;
 }
 
 .projectShelf {

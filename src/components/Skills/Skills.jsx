@@ -6,7 +6,6 @@ import GitIcon from '../../images/icons/git.png';
 import Photoshop from '../../images/icons/photoshop.png';
 import Javascript from '../../images/icons/javascript.png';
 import Bootstrap from '../../images/icons/bootstrap.png';
-import Sass from '../../images/icons/sass.png';
 import UX from '../../images/icons/ux.png';
 import Responsive from '../../images/icons/responsive.svg';
 
