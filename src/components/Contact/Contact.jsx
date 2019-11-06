@@ -52,6 +52,7 @@ class Contact extends Component {
               className="text-primary"
               onChange={this.handleChange.bind(this, "name")}
               placeholder="Name"
+              required
             />
             <label htmlFor="email" />
             <input
@@ -61,6 +62,7 @@ class Contact extends Component {
               className="text-primary"
               onChange={this.handleChange.bind(this, "email")}
               placeholder="Enter email"
+              required
             />
             <label htmlFor="subject" />
             <input
@@ -70,6 +72,7 @@ class Contact extends Component {
               value={this.state.subject}
               onChange={this.handleChange.bind(this, "subject")}
               placeholder="Subject"
+              required
             />
           </div>
           <div className="rightContact">

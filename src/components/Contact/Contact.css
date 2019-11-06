@@ -10,9 +10,13 @@ form {
 }
 
 .leftContact {
-	flex-basis: 45%;
+	flex-basis: 50%;
 	text-align: center;
 	border-right: 1px solid #dadada;
+}
+
+.leftContact h3 {
+	margin-bottom: 40px;
 }
 
 .rightContact {
@@ -24,13 +28,13 @@ input,
 textarea {
 	display: block;
 	height: 30px;
-	width: 80%;
+	width: 95%;
 	padding: 16px 12px;
 	border: 1px solid transparent;
 	border-bottom: 1px solid #dadada;
 	outline: none;
 	margin: 20px auto;
-
+	line-height: 2.4em;
 	font-size: 0.8em;
 	letter-spacing: 0.07em;
 }
@@ -42,6 +46,7 @@ textarea {
 textarea {
 	height: 100%;
 	border: none;
+	font-size: 0.9em;
 }
 
 button {
@@ -53,4 +58,5 @@ button {
 	border: transparent;
 	color: var(--white);
 	text-transform: uppercase;
+	outline: none;
 }
