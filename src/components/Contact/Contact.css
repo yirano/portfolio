@@ -1,6 +1,6 @@
 .contactContainer {
 	padding: 50px;
-	height: 80vh;
+	height: 600px;
 	display: flex;
 }
 
@@ -38,6 +38,7 @@ textarea {
 	line-height: 2.4em;
 	font-size: 0.8em;
 	letter-spacing: 0.07em;
+	color: var(--dark-gray);
 }
 
 ::placeholder {
@@ -49,6 +50,7 @@ textarea {
 	width: 90%;
 	border: none;
 	font-size: 0.9em;
+	resize: none;
 }
 
 button {
