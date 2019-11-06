@@ -31,7 +31,7 @@ export class Projects extends Component {
 		};
 
 		return (
-			<div className="projectShelf">
+			<section className="projectShelf">
 				<div className="projectBook">
 					{this.state.projects.map(
 						({ id, image, projectName, active, projectGit, projectURL, projectLang, projectDesc }) => (
@@ -63,7 +63,7 @@ export class Projects extends Component {
 						)
 					)}
 				</div>
-			</div>
+			</section>
 		);
 	}
 }

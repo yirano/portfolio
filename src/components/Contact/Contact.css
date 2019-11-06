@@ -1,17 +1,35 @@
-form {
-	margin-bottom: 40px;
+.contactContainer {
+	padding: 50px;
+	height: 80vh;
+	display: flex;
 }
 
-input {
+.leftContent {
+	flex-basis: 40%;
+	text-align: center;
+}
+
+.rightContent {
+	border: 1px solid red;
+	flex-basis: 50%;
+}
+
+input,
+textarea {
+	flex-basis: 60%;
+	display: block;
 	height: 30px;
-	width: 200px;
+	width: 80%;
 	padding: 6px 12px;
 	border: 1px solid transparent;
 	border-bottom: 1px solid grey;
 	outline: none;
-	margin: 0 10px;
+	margin: 0 auto;
 }
 
 textarea {
-	border: 1px solid blue;
+}
+
+button {
+	width: 100px;
 }
