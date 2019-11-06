@@ -34,7 +34,7 @@ class Contact extends Component {
 	};
 	render() {
 		return (
-			<section className="contactContainer">
+			<section className="contactContainer" id="contact">
 				<form onSubmit={this.handleSubmit.bind(this)}>
 					<div className="leftContact">
 						<h3>I'd love to hear from you!</h3>

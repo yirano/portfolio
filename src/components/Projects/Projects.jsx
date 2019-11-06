@@ -37,7 +37,7 @@ export class Projects extends Component {
 			marginTop: '-90px'
 		};
 		return (
-			<section className="projectShelf" style={moveUp}>
+			<section className="projectShelf" style={moveUp} id="projects">
 				<h3 style={headerStyle}>Projects</h3>
 				<div className="projectBook">
 					{this.state.projects.map(
