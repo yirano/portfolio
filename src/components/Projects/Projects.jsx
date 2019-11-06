@@ -29,9 +29,16 @@ export class Projects extends Component {
 			opacity: 1,
 			transition: 'all 600ms'
 		};
-
+		const headerStyle = {
+			textAlign: 'center',
+			padding: '20px 0'
+		};
+		const moveUp = {
+			marginTop: '-90px'
+		};
 		return (
-			<section className="projectShelf">
+			<section className="projectShelf" style={moveUp}>
+				<h3 style={headerStyle}>Projects</h3>
 				<div className="projectBook">
 					{this.state.projects.map(
 						({ id, image, projectName, active, projectGit, projectURL, projectLang, projectDesc }) => (
