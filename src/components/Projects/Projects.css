@@ -21,15 +21,14 @@
 }
 
 .projectShelfCard {
-	display: flex;
 	position: relative;
 	break-inside: avoid;
-	margin-bottom: 3px;
 	justify-content: center;
+	height: 100%;
 }
 
 .projectShelfCard img {
-	max-width: 100%;
+	width: 100%;
 	transition: all 600ms;
 }
 
