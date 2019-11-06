@@ -112,3 +112,15 @@
 	display: none;
 	transition: display 600ms;
 }
+
+@media only screen and (max-width: 1024px) {
+	.projectBook {
+		columns: 2;
+	}
+}
+
+@media only screen and (max-width: 667px) {
+	.projectBook {
+		columns: 1;
+	}
+}
