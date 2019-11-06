@@ -4,32 +4,53 @@
 	display: flex;
 }
 
-.leftContent {
-	flex-basis: 40%;
-	text-align: center;
+form {
+	display: flex;
+	width: 100%;
 }
 
-.rightContent {
-	border: 1px solid red;
+.leftContact {
+	flex-basis: 45%;
+	text-align: center;
+	border-right: 1px solid #dadada;
+}
+
+.rightContact {
+	position: relative;
 	flex-basis: 50%;
 }
 
 input,
 textarea {
-	flex-basis: 60%;
 	display: block;
 	height: 30px;
 	width: 80%;
-	padding: 6px 12px;
+	padding: 16px 12px;
 	border: 1px solid transparent;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #dadada;
 	outline: none;
-	margin: 0 auto;
+	margin: 20px auto;
+
+	font-size: 0.8em;
+	letter-spacing: 0.07em;
+}
+
+::placeholder {
+	color: rgb(182, 182, 182);
 }
 
 textarea {
+	height: 100%;
+	border: none;
 }
 
 button {
-	width: 100px;
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	background-color: var(--black);
+	width: 100%;
+	border: transparent;
+	color: var(--white);
+	text-transform: uppercase;
 }
