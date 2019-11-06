@@ -6,7 +6,8 @@
 
 form {
 	display: flex;
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .leftContact {
@@ -28,7 +29,7 @@ input,
 textarea {
 	display: block;
 	height: 30px;
-	width: 95%;
+	width: 80%;
 	padding: 16px 12px;
 	border: 1px solid transparent;
 	border-bottom: 1px solid #dadada;
@@ -45,6 +46,7 @@ textarea {
 
 textarea {
 	height: 100%;
+	width: 90%;
 	border: none;
 	font-size: 0.9em;
 }
