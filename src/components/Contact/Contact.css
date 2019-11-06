@@ -64,3 +64,13 @@ button {
 	text-transform: uppercase;
 	outline: none;
 }
+
+@media only screen and (max-width: 967px) {
+	form {
+		flex-flow: column;
+	}
+
+	.leftContact {
+		border-right: none;
+	}
+}
