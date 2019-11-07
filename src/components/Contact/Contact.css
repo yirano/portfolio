@@ -74,3 +74,14 @@ button {
 		border-right: none;
 	}
 }
+
+@media only screen and (max-width: 767px) {
+	.contactContainer {
+		padding: 0;
+	}
+
+	input,
+	textarea {
+		width: 100%;
+	}
+}

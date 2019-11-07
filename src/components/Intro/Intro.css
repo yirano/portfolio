@@ -1,32 +1,52 @@
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	2% {
+		transform: scale(1.8);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
 .hero {
 	position: relative;
-
 	display: flex;
 	height: 100vh;
 }
 
 .background {
-	background-image: url('../../images/headerImg.jpeg');
+	background: url('../../images/headerImg.jpeg') no-repeat;
 	background-size: contain;
-	height: 100%;
+	height: inherit;
 	width: 100%;
 }
 
 .heroText {
 	position: absolute;
 	padding: inherit;
+	height: inherit;
 }
 
 .heroText h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: inherit;
 	width: 100vw;
 	background-color: white;
 	font-weight: 500;
 	font-size: 5.4em;
 	color: black;
+	animation: pulse 500ms ease-in;
 
 	mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+@media only screen and (max-width: 767px) {
+	.hero {
+		height: 30vh;
+	}
 }
