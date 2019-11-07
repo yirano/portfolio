@@ -1,31 +1,32 @@
 .hero {
-  position: relative;
-  
+	position: relative;
+
 	display: flex;
 	height: 100vh;
 }
 
 .background {
-  background-image: url('../../images/headerImg.jpeg');
-  background-size: contain;
-  height: 100%;
-  width: 100%;
+	background-image: url('../../images/headerImg.jpeg');
+	background-size: contain;
+	height: 100%;
+	width: 100%;
 }
 
 .heroText {
-  position: absolute;
+	position: absolute;
+	padding: inherit;
 }
 
 .heroText h1 {
-  display: flex;
-  align-items: center; 
-  justify-content: center; 
-  height: 100vh;
-  width: 100vw;
-  background-color: white;
-  font-weight: 500;
-  font-size: 5.4em;
-  color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background-color: white;
+	font-weight: 500;
+	font-size: 5.4em;
+	color: black;
 
-  mix-blend-mode: screen; /* This makes the cutout text possible */
+	mix-blend-mode: screen; /* This makes the cutout text possible */
 }
