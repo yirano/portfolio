@@ -1,56 +1,45 @@
-.heading {
-	position: relative;
-	background-color: #fff;
-	background: url('../../images/headerImg.jpeg') no-repeat;
-	background-size: cover;
-	border: 50px solid #fff;
-	width: 100vw;
-	height: 100vh;
-	z-index: -999;
+.hero {
 	display: flex;
-	justify-content: center;
+	height: 100vh;
 }
 
-.heading::after {
-	content: '';
-	background-color: #fff;
-	height: inherit;
-	width: inherit;
+.leftHero {
+	position: relative;
+	flex-basis: 37%;
+	background-color: var(--black);
+}
+
+.imageFrame {
+	height: 580px;
+	width: 430px;
+	overflow: hidden;
 	position: absolute;
-	opacity: 0.1;
+	bottom: 70px;
+	right: -93px;
 }
 
-.headingTitle {
+.profileImg {
+	position: relative;
+	width: 430px;
+	top: -20px;
+	left: -9px;
+}
+
+.rightHero {
+	display: flex;
+	flex-basis: 55%;
+	flex-flow: column;
 	align-self: center;
-	padding: 50px 60px;
-	width: 396px;
-	background-color: rgba(255, 255, 255, 0.726);
-	border-radius: 4px;
+}
+
+.heroTextContainer {
+	width: 60%;
+	align-self: center;
+}
+
+.heroTextContainer p {
 	color: var(--black);
-	z-index: 9998;
-}
-
-.headingTitle h1 {
-	text-align: center;
-}
-
-.caption {
-	font-size: 0.8em;
-	letter-spacing: 0.2em;
-}
-
-.alignRight {
-	text-align: right;
-}
-
-.alignLeft {
-	text-align: left;
-}
-
-.uppercase {
-	text-transform: uppercase;
-}
-
-h1 {
-	font-size: 5em;
+	font-size: 0.9em;
+	letter-spacing: 0.03em;
+	line-height: 1.4em;
 }
