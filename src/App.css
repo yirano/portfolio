@@ -26,7 +26,6 @@ main {
 section {
 	height: 100%;
 	width: 100vw;
-	margin-bottom: 120px;
 	z-index: 2;
 }
 
