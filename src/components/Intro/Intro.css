@@ -1,45 +1,26 @@
 .hero {
+  position: relative;
+  
 	display: flex;
 	height: 100vh;
 }
 
-.leftHero {
-	position: relative;
-	flex-basis: 37%;
-	background-color: var(--black);
+.background {
+  background-image: url('../../images/headerImg.jpeg');
+  background-size: contain;
+  height: 100%;
+  width: 100%;
 }
 
-.imageFrame {
-	height: 580px;
-	width: 430px;
-	overflow: hidden;
-	position: absolute;
-	bottom: 70px;
-	right: -93px;
+.heroText {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
-.profileImg {
-	position: relative;
-	width: 430px;
-	top: -20px;
-	left: -9px;
-}
+.heroText h1 {
+  font-weight: 700;
+  color: black;
 
-.rightHero {
-	display: flex;
-	flex-basis: 55%;
-	flex-flow: column;
-	align-self: center;
-}
-
-.heroTextContainer {
-	width: 60%;
-	align-self: center;
-}
-
-.heroTextContainer p {
-	color: var(--black);
-	font-size: 0.9em;
-	letter-spacing: 0.03em;
-	line-height: 1.4em;
+  mix-blend-mode: screen; /* This makes the cutout text possible */
 }
