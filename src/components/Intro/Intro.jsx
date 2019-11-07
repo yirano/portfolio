@@ -8,12 +8,9 @@ export class Intro extends Component {
 	render() {
 		return (
 			<section className="hero" id="hero">
-        <div className="background">
-         
-        </div>
-        <div className="heroText">
-          <h1>yirano</h1>
-        </div>
+				<div className="heroText">
+					<h1>yirano</h1>
+				</div>
 			</section>
 		);
 	}

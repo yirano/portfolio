@@ -38,7 +38,9 @@ export class Projects extends Component {
 		};
 		return (
 			<section className="projectShelf" style={moveUp} id="projects">
-				<h3 style={headerStyle}>Projects</h3>
+				<div className="sectionTitle">
+					<h3 style={headerStyle}>Projects</h3>
+				</div>
 				<div className="projectBook">
 					{this.state.projects.map(
 						({ id, image, projectName, active, projectGit, projectURL, projectLang, projectDesc }) => (

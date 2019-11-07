@@ -28,6 +28,8 @@
 	position: absolute;
 	padding: inherit;
 	height: inherit;
+	background: url('../../images/headerImg.jpeg');
+	background-attachment: fixed;
 }
 
 .heroText h1 {
@@ -36,7 +38,7 @@
 	justify-content: center;
 	height: inherit;
 	width: 100vw;
-	background-color: white;
+	background-color: #fff;
 	font-weight: 500;
 	font-size: 5.4em;
 	color: black;
