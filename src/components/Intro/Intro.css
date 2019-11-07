@@ -14,11 +14,13 @@
 
 .heroText {
   position: absolute;
-  height: 100%;
-  width: 100%;
+
 }
 
 .heroText h1 {
+    height: 100vh;
+  width: 100vw;
+  background-color: white;
   font-weight: 700;
   color: black;
 
