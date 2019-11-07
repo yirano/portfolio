@@ -123,3 +123,12 @@
 		columns: 1;
 	}
 }
+
+@media only screen and (max-width: 767px) {
+	.projectCardText {
+		padding: 15px 20px;
+	}
+	.projectDesc {
+		font-size: 0.8em;
+	}
+}
