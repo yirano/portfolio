@@ -14,14 +14,17 @@
 
 .heroText {
   position: absolute;
-
 }
 
 .heroText h1 {
-    height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
   width: 100vw;
   background-color: white;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 5.4em;
   color: black;
 
   mix-blend-mode: screen; /* This makes the cutout text possible */
