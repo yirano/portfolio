@@ -1,4 +1,4 @@
-.contactContainer {
+.contactFlexwrap {
 	padding: 50px;
 	height: 600.9px;
 	display: flex;
@@ -14,10 +14,6 @@ form {
 	flex-basis: 50%;
 	text-align: center;
 	border-right: 1px solid #dadada;
-}
-
-.leftContact h3 {
-	margin-bottom: 40px;
 }
 
 .rightContact {
