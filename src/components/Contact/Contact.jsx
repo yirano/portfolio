@@ -37,7 +37,9 @@ class Contact extends Component {
 			<section className="contactContainer" id="contact">
 				<form onSubmit={this.handleSubmit.bind(this)}>
 					<div className="leftContact">
-						<h3>I'd love to hear from you!</h3>
+						<div className="sectionTitle">
+							<h3>I'd love to hear from you!</h3>
+						</div>
 
 						<label htmlFor="name" />
 						<input
