@@ -17,6 +17,12 @@ export class Header extends Component {
 			return (prevState.menuActive = !prevState.menuActive);
 		});
 	};
+
+	handleNavScroll = () => {
+		this.setState((prevState) => {
+			return (prevState.menuActive = !prevState.menuActive);
+		});
+	};
 	render() {
 		return (
 			<header className={this.state.menuActive ? null : 'navHide'}>
@@ -24,7 +30,7 @@ export class Header extends Component {
 					menu
 				</button>
 
-				<nav id="nav">
+				<nav id="nav" onScroll={this.handleNavScroll}>
 					<div className="navLinks">
 						<ul>
 							<li>

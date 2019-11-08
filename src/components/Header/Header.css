@@ -26,9 +26,9 @@ header {
 	z-index: 999;
 	padding: 10px;
 	top: 0;
-	height: 30vh;
+	height: 100vh;
 	transition: all 500ms;
-	z-index: 999999;
+	z-index: 999;
 }
 
 nav {
