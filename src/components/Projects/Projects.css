@@ -16,7 +16,7 @@
 .projectBook {
 	columns: 3;
 	column-gap: 3px;
-	transition: all 600ms;
+	transition: all 500ms;
 }
 
 .projectShelfCard {
@@ -28,13 +28,10 @@
 
 .projectShelfCard img {
 	width: 100%;
-	transition: all 600ms;
 }
 
 .cardFlip {
-	transform: rotateX(180deg);
-	animation: opac 400ms forwards;
-	animation-delay: 90ms;
+	animation: opac 500ms forwards;
 }
 
 .projectCardText {
@@ -97,21 +94,6 @@
 	margin-left: -5px;
 }
 
-.hide {
-	opacity: 0.3;
-	transition: opacity 200ms;
-}
-
-.show {
-	opacity: 1;
-	transition: all 200ms;
-}
-
-.getRidOf {
-	display: none;
-	transition: display 600ms;
-}
-
 @media only screen and (max-width: 1024px) {
 	.projectCardText {
 		padding: 15px 20px;
@@ -125,9 +107,7 @@
 	.projectDesc {
 		font-size: 0.8em;
 	}
-}
 
-@media only screen and (max-width: 667px) {
 	.projectBook {
 		columns: 1;
 	}
