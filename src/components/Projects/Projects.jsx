@@ -33,11 +33,9 @@ export class Projects extends Component {
 			textAlign: 'center',
 			padding: '20px 0'
 		};
-		const moveUp = {
-			marginTop: '-90px'
-		};
+
 		return (
-			<section className="projectShelf" style={moveUp} id="projects">
+			<section className="projectShelf" id="projects">
 				<div className="sectionTitle">
 					<h3 style={headerStyle}>Projects</h3>
 				</div>
