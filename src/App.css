@@ -75,3 +75,9 @@ a:visited {
 	color: black;
 	mix-blend-mode: screen;
 }
+
+@media only screen and (max-width: 767px) {
+	.sectionTitle h3 {
+		font-size: 1.6em;
+	}
+}
