@@ -24,6 +24,7 @@
 	height: inherit;
 	background: url('../../images/headerImg.jpeg');
 	background-attachment: fixed;
+	width: 100%;
 }
 
 .heroText h1 {
@@ -31,7 +32,6 @@
 	align-items: center;
 	justify-content: center;
 	height: inherit;
-	width: 100vw;
 	background-color: #fff;
 	font-weight: 500;
 	font-size: 5.4em;

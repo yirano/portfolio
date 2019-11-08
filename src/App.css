@@ -21,11 +21,12 @@ body {
 
 main {
 	position: relative;
+	max-width: 1440px;
+	margin: 0 auto;
 }
-
-section {
+p section {
 	height: 100%;
-	width: 100vw;
+	width: 100%;
 	z-index: 2;
 	padding-bottom: 70px;
 }

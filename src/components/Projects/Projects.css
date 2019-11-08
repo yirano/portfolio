@@ -8,8 +8,9 @@
 	}
 }
 
-.projects {
+.projectShelf {
 	align-items: center;
+	padding-bottom: 120px;
 }
 
 .projectBook {

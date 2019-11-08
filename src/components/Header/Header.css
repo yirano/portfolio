@@ -22,7 +22,7 @@
 header {
 	display: flex;
 	position: relative;
-	width: 100%;
+	/* width: 100%; */
 	z-index: 999;
 	padding: 10px;
 	top: 0;
