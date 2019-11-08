@@ -4,6 +4,7 @@ footer {
 	padding: 90px 0;
 	color: var(--white);
 	position: relative;
+	margin-top: 90px;
 }
 
 footer h4 {
