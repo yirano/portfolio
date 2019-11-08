@@ -28,6 +28,7 @@ header {
 	top: 0;
 	height: 30vh;
 	transition: all 500ms;
+	z-index: 999999;
 }
 
 nav {
@@ -43,7 +44,7 @@ nav {
 }
 
 .navHide {
-	top: -500px;
+	top: -600px;
 	height: 0;
 	transition: all 500ms;
 }
@@ -83,7 +84,11 @@ nav img {
 
 .menuIcon {
 	position: fixed;
-	top: 0;
-	right: 0;
-	z-index: 999;
+	top: 20px;
+	right: 20px;
+	z-index: 9999999;
+	padding: 6px 12px;
+	background: none;
+	border: none;
+	outline: none;
 }
