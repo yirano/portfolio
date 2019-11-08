@@ -1,13 +1,13 @@
 import React from 'react';
 import './Skills.css';
-import HTMLCSS from '../../images/icons/htmlcss.png';
-import ReactIcon from '../../images/icons/react.png';
-import GitIcon from '../../images/icons/git.png';
-import Photoshop from '../../images/icons/photoshop.png';
-import Javascript from '../../images/icons/javascript.png';
-import Bootstrap from '../../images/icons/bootstrap.png';
-import UX from '../../images/icons/ux.png';
-import Responsive from '../../images/icons/responsive.svg';
+// import HTMLCSS from '../../images/icons/htmlcss.png';
+// import ReactIcon from '../../images/icons/react.png';
+// import GitIcon from '../../images/icons/git.png';
+// import Photoshop from '../../images/icons/photoshop.png';
+// import Javascript from '../../images/icons/javascript.png';
+// import Bootstrap from '../../images/icons/bootstrap.png';
+// import UX from '../../images/icons/ux.png';
+// import Responsive from '../../images/icons/responsive.svg';
 import SelfImage from '../../images/self.JPG';
 
 export default class Skills extends React.Component {

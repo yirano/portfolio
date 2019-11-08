@@ -41,7 +41,7 @@
 .projectCardText {
 	position: absolute;
 	top: 0;
-	padding: 30px 40px;
+	padding: 20px 30px;
 	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
 	transition: all 500ms;
@@ -60,15 +60,16 @@
 }
 
 .projectDesc {
-	font-size: 0.9em;
+	font-size: 0.86em;
 	margin-bottom: 13px;
 	color: var(--dark-gray);
-	letter-spacing: 0.04em;
+	letter-spacing: 0.09em;
+	line-height: 1.2em;
 }
 
 .projectCardList {
 	position: absolute;
-	bottom: 40px;
+	bottom: 20px;
 	right: 40px;
 	list-style: none;
 	opacity: 0;
@@ -113,22 +114,22 @@
 }
 
 @media only screen and (max-width: 1024px) {
+	.projectCardText {
+		padding: 15px 20px;
+	}
 	.projectBook {
 		columns: 2;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.projectDesc {
+		font-size: 0.8em;
 	}
 }
 
 @media only screen and (max-width: 667px) {
 	.projectBook {
 		columns: 1;
-	}
-}
-
-@media only screen and (max-width: 767px) {
-	.projectCardText {
-		padding: 15px 20px;
-	}
-	.projectDesc {
-		font-size: 0.8em;
 	}
 }
