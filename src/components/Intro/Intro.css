@@ -16,13 +16,6 @@
 	height: 100vh;
 }
 
-.background {
-	background: url('../../images/headerImg.jpeg') no-repeat;
-	background-size: contain;
-	height: inherit;
-	width: 100%;
-}
-
 .heroText {
 	position: absolute;
 	padding: inherit;
@@ -49,5 +42,9 @@
 @media only screen and (max-width: 767px) {
 	.hero {
 		height: 30vh;
+	}
+
+	.heroText h1 {
+		font-size: 4.4em;
 	}
 }
