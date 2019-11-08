@@ -49,7 +49,7 @@ textarea {
 	resize: none;
 }
 
-button {
+form button {
 	position: absolute;
 	bottom: 0;
 	height: 50px;

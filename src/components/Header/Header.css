@@ -1,14 +1,19 @@
 header {
-	position: absolute;
-	width: 100vw;
+	display: flex;
+	width: 100%;
 	z-index: 999;
 	padding: 10px;
 }
 
 nav {
-	width: -webkit-fill-available;
-	transition: all 100ms;
+	display: flex;
 	z-index: 999;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	margin: auto;
+	padding-top: 40px;
+	transition: all 300ms forwards;
 }
 
 nav a {
@@ -23,9 +28,15 @@ nav a:visited {
 	color: var(--black);
 }
 
-nav ul li {
-	display: inline-block;
+nav li {
 	padding: 6px 10px;
+	list-style: none;
+}
+
+nav li:nth-child(5),
+nav li:nth-child(6),
+nav li:nth-child(7) {
+	display: inline-block;
 }
 
 .navLinks {
@@ -36,4 +47,10 @@ nav img {
 	width: 20px;
 	position: relative;
 	top: 4px;
+}
+
+.menuIcon {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
