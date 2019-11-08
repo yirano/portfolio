@@ -32,6 +32,7 @@
 
 .cardFlip {
 	animation: opac 500ms forwards;
+	-webkit-animation: opac 500ms forwards;
 }
 
 .projectCardText {
