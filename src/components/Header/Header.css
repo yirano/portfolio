@@ -1,16 +1,14 @@
 header {
 	position: absolute;
 	width: 100vw;
-  z-index: 999;
-  padding: 10px;
-  
+	z-index: 999;
+	padding: 10px;
 }
 
 nav {
 	width: -webkit-fill-available;
 	transition: all 100ms;
-  z-index: 999;
-  
+	z-index: 999;
 }
 
 nav a {
@@ -35,11 +33,7 @@ nav ul li {
 }
 
 nav img {
-  width: 20px;
-  position: relative;
-  top: 4px;
-}
-
-#twitterIcon {
-	fill: red;
+	width: 20px;
+	position: relative;
+	top: 4px;
 }
