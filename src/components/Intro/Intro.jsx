@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Intro.css';
-import '../../fonts/fonts.css';
 import vid from '../../images/videos/sky.mp4';
 // import profile from '../../images/self.JPG';
 
