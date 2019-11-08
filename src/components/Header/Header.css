@@ -1,11 +1,37 @@
+@keyframes navShow {
+	0% {
+		height: 0px;
+	}
+
+	100% {
+		height: 100%;
+	}
+}
+
+/* @keyframes slideDown {
+	100% {
+		height: 0px;
+		overflow: hidden;
+	}
+
+	0% {
+		height: 100%;
+	}
+} */
+
 header {
 	display: flex;
+	position: relative;
 	width: 100%;
 	z-index: 999;
 	padding: 10px;
+	top: 0;
+	height: 30vh;
+	transition: all 500ms;
 }
 
 nav {
+	position: relative;
 	display: flex;
 	z-index: 999;
 	text-align: center;
@@ -13,13 +39,19 @@ nav {
 	width: 100%;
 	margin: auto;
 	padding-top: 40px;
-	transition: all 300ms forwards;
+	top: 0;
+}
+
+.navHide {
+	top: -500px;
+	height: 0;
+	transition: all 500ms;
 }
 
 nav a {
 	color: var(--black);
 	text-decoration: none;
-	font-size: 0.7em;
+	font-size: 0.9em;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
@@ -29,7 +61,7 @@ nav a:visited {
 }
 
 nav li {
-	padding: 6px 10px;
+	padding: 16px 10px;
 	list-style: none;
 }
 
@@ -50,7 +82,8 @@ nav img {
 }
 
 .menuIcon {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
+	z-index: 999;
 }
