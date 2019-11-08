@@ -15,7 +15,6 @@
 .projectBook {
 	columns: 3;
 	column-gap: 3px;
-	transition: all 500ms;
 }
 
 .projectShelfCard {
@@ -27,7 +26,6 @@
 
 .projectShelfCard img {
 	width: 100%;
-	transition: all 500ms;
 }
 
 .cardFlip {
