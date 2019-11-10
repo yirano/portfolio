@@ -29,9 +29,16 @@ export class Projects extends Component {
 			opacity: 1,
 			transition: 'all 600ms'
 		};
+		const headerStyle = {
+			textAlign: 'center',
+			padding: '20px 0'
+		};
 
 		return (
-			<section className="projectShelf">
+			<section className="projectShelf" id="projects">
+				<div className="sectionTitle">
+					<h3 style={headerStyle}>Projects</h3>
+				</div>
 				<div className="projectBook">
 					{this.state.projects.map(
 						({ id, image, projectName, active, projectGit, projectURL, projectLang, projectDesc }) => (

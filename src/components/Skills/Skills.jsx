@@ -1,13 +1,14 @@
 import React from 'react';
 import './Skills.css';
-import HTMLCSS from '../../images/icons/htmlcss.png';
-import ReactIcon from '../../images/icons/react.png';
-import GitIcon from '../../images/icons/git.png';
-import Photoshop from '../../images/icons/photoshop.png';
-import Javascript from '../../images/icons/javascript.png';
-import Bootstrap from '../../images/icons/bootstrap.png';
-import UX from '../../images/icons/ux.png';
-import Responsive from '../../images/icons/responsive.svg';
+// import HTMLCSS from '../../images/icons/htmlcss.png';
+// import ReactIcon from '../../images/icons/react.png';
+// import GitIcon from '../../images/icons/git.png';
+// import Photoshop from '../../images/icons/photoshop.png';
+// import Javascript from '../../images/icons/javascript.png';
+// import Bootstrap from '../../images/icons/bootstrap.png';
+// import UX from '../../images/icons/ux.png';
+// import Responsive from '../../images/icons/responsive.svg';
+import SelfImage from '../../images/self.JPG';
 
 export default class Skills extends React.Component {
 	showHtmlCount = () => {
@@ -22,7 +23,10 @@ export default class Skills extends React.Component {
 	render() {
 		return (
 			<section className="skills" id="skills">
-				<div className="skillCards">
+				<div className="aboutMe">
+					<img src={SelfImage} alt="Self Profile" width="400px" />
+				</div>
+				{/* <div className="skillCards">
 					<div className="skillCard htmlcss" onMouseEnter={this.showHtmlCount}>
 						<div className="cardTitle">
 							<img src={HTMLCSS} alt="HTML/CSS icon" />
@@ -71,7 +75,7 @@ export default class Skills extends React.Component {
 							<h4>User Testing</h4>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</section>
 		);
 	}

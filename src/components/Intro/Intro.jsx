@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
 import './Intro.css';
-import '../../fonts/fonts.css';
+import vid from '../../images/videos/sky.mp4';
+// import profile from '../../images/self.JPG';
 
 export class Intro extends Component {
 	render() {
 		return (
-			<section className="heading" id="intro">
-				<div className="headingTitle">
-					<p className="alignLeft uppercase caption">My name is Tiffany</p>
-					<h1>Hello!</h1>
-					<p className="alignRight uppercase caption">
-						&amp; I'm a <span className="highlight">Frontend Developer</span>
-					</p>
+			<section className="hero" id="hero">
+				<div className="heroText">
+					<h1>yirano</h1>
 				</div>
 			</section>
 		);

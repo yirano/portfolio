@@ -1,5 +1,4 @@
 import React from 'react';
-import './fonts/fonts.css';
 import './App.css';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
@@ -10,14 +9,16 @@ import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
-		<main>
-			<Header />
-			<Intro />
-			<Skills />
-			<Projects />
-			<Contact />
+		<div>
+			<main>
+				<Header />
+				<Intro />
+				{/* <Skills /> */}
+				<Projects />
+				<Contact />
+			</main>
 			<Footer />
-		</main>
+		</div>
 	);
 }
 
