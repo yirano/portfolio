@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
-import Profile from '../../images/self.JPG';
+import Profile from '../../images/self.png';
 
 export class About extends Component {
 	render() {

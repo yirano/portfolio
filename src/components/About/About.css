@@ -103,4 +103,8 @@
 		width: 100%;
 		max-height: auto;
 	}
+
+	.socialLinks li {
+		display: inline-block;
+	}
 }
