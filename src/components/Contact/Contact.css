@@ -1,23 +1,83 @@
-.contact {
-	border: 18px solid #e2e9f0;
-	height: 900px;
-	width: 95%;
-	padding: 30px;
-	overflow: auto;
-	margin: 40px auto;
-}
-
-.contact input {
-	height: 30px;
-	width: 320px;
-	margin: 10px;
-	padding: 4px 19px;
-	border-radius: 5px;
-	border: 1px solid #e8e8e8;
-	display: block;
+.contactFlexwrap {
+	padding: 50px 0;
+	height: 600px;
+	display: flex;
 }
 
 form {
-	margin: auto;
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.leftContact {
+	flex-basis: 50%;
+	text-align: center;
+	border-right: 1px solid #dadada;
+}
+
+.rightContact {
+	position: relative;
+	flex-basis: 50%;
+}
+
+input,
+textarea {
+	display: block;
+	height: 30px;
+	width: 80%;
+	padding: 16px 12px;
+	border: 1px solid transparent;
+	border-bottom: 1px solid #dadada;
+	outline: none;
+	margin: 20px auto;
+	line-height: 2.4em;
+	font-size: 0.8em;
+	letter-spacing: 0.07em;
+	color: var(--dark-gray);
+}
+
+::placeholder {
+	color: rgb(182, 182, 182);
+}
+
+textarea {
+	height: 100%;
+	width: 90%;
+	border: none;
+	font-size: 0.9em;
+	resize: none;
+}
+
+form button {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	background-color: var(--black);
 	width: 100%;
+	border: transparent;
+	color: var(--white);
+	text-transform: uppercase;
+	outline: none;
+}
+
+@media only screen and (max-width: 967px) {
+	form {
+		flex-flow: column;
+	}
+
+	.leftContact {
+		border-right: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.contactContainer {
+		padding: 0;
+	}
+
+	input,
+	textarea {
+		width: 100%;
+	}
 }

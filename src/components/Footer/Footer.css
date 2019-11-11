@@ -1,6 +1,33 @@
 footer {
 	text-align: center;
 	background-color: var(--black);
-	padding: 90px;
+	padding: 90px 0;
 	color: var(--white);
+	position: relative;
+	margin-top: 90px;
+}
+
+footer h4 {
+	font-weight: 400;
+	padding: 10px 0;
+}
+
+.footerLinks ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0px 12px;
+}
+
+.footerLinks img {
+	width: 20px;
+}
+
+.footerBottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 12px 0;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
 }

@@ -3,46 +3,41 @@
 		opacity: 1;
 	}
 
-	55%,
 	100% {
 		opacity: 0;
 	}
 }
 
-.projects {
+.projectShelf {
 	align-items: center;
-	background-color: #fff;
+	padding-bottom: 120px;
 }
 
 .projectBook {
 	columns: 3;
 	column-gap: 3px;
-	transition: all 600ms;
 }
 
 .projectShelfCard {
-	display: flex;
 	position: relative;
 	break-inside: avoid;
-	margin-bottom: 3px;
 	justify-content: center;
+	height: 100%;
 }
 
 .projectShelfCard img {
-	max-width: 100%;
-	transition: all 600ms;
+	width: 100%;
 }
 
 .cardFlip {
-	transform: rotateX(180deg);
-	animation: opac 400ms forwards;
-	animation-delay: 90ms;
+	animation: opac 500ms forwards;
+	-webkit-animation: opac 500ms forwards;
 }
 
 .projectCardText {
 	position: absolute;
 	top: 0;
-	padding: 30px 40px;
+	padding: 20px 30px;
 	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
 	transition: all 500ms;
@@ -61,15 +56,16 @@
 }
 
 .projectDesc {
-	font-size: 0.9em;
+	font-size: 0.86em;
 	margin-bottom: 13px;
 	color: var(--dark-gray);
-	letter-spacing: 0.04em;
+	letter-spacing: 0.09em;
+	line-height: 1.2em;
 }
 
 .projectCardList {
 	position: absolute;
-	bottom: 40px;
+	bottom: 20px;
 	right: 40px;
 	list-style: none;
 	opacity: 0;
@@ -85,6 +81,7 @@
 	font-size: 0.7em;
 	text-transform: uppercase;
 	letter-spacing: 0.16em;
+	color: var(--black);
 }
 
 .projectCardList a::after {
@@ -97,17 +94,21 @@
 	margin-left: -5px;
 }
 
-.hide {
-	opacity: 0.3;
-	transition: opacity 200ms;
+@media only screen and (max-width: 1024px) {
+	.projectCardText {
+		padding: 15px 20px;
+	}
+	.projectBook {
+		columns: 2;
+	}
 }
 
-.show {
-	opacity: 1;
-	transition: all 200ms;
-}
+@media only screen and (max-width: 767px) {
+	.projectDesc {
+		font-size: 0.8em;
+	}
 
-.getRidOf {
-	display: none;
-	transition: display 600ms;
+	.projectBook {
+		columns: 1;
+	}
 }

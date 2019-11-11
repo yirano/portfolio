@@ -21,16 +21,20 @@ body {
 
 main {
 	position: relative;
+	max-width: 1440px;
+	margin: 0 auto;
 }
-
-section {
+p section {
 	height: 100%;
-	width: 100vw;
+	width: 100%;
+	z-index: 2;
+	padding-bottom: 70px;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	font-family: 'Quattrocento', serif;
 }
 
@@ -47,10 +51,43 @@ h3 {
 	font-size: 2.2em;
 }
 
+h4 {
+	font-size: 1.8em;
+}
+
 a:hover {
 	font-weight: 600;
 }
 
 a:visited {
-	color: inherit;
+	color: var(--white);
+}
+
+.sectionTitle {
+	background: url('./images/headerImg.jpeg');
+	background-attachment: fixed;
+}
+
+.sectionTitle h3 {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	font-weight: 500;
+	color: black;
+	mix-blend-mode: screen;
+}
+
+section {
+	width: 85%;
+	float: right;
+}
+
+footer {
+	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+	.sectionTitle h3 {
+		font-size: 1.6em;
+	}
 }
