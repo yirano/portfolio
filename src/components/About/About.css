@@ -52,7 +52,7 @@
 @media only screen and (max-width: 1024px) {
 	.aboutTextWrap {
 		font-weight: 600;
-		font-size: 80%;
+		font-size: 95%;
 		height: fit-content;
 	}
 	.aboutRightContent {
@@ -97,7 +97,7 @@
 	.aboutTextWrap p {
 		position: relative;
 		width: 100%;
-		padding: 0 70px;
+		padding: 0 10px;
 	}
 
 	.profileImage {
