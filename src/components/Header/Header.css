@@ -36,11 +36,25 @@ button {
 		text-align: center;
 	}
 
-	button {
+	.hamburgerMenu {
 		display: block;
 		position: absolute;
 		top: 20px;
 		right: 20px;
+		padding: 4px 7px;
+		background: #fff;
+		outline: none;
+		border: none;
+	}
+
+	button span:nth-child(1),
+	button span:nth-child(2),
+	button span:nth-child(3) {
+		content: '';
+		display: block;
+		width: 20px;
+		border-top: 3px solid black;
+		padding-bottom: 3px;
 	}
 
 	nav {
@@ -52,5 +66,10 @@ button {
 		position: absolute;
 		top: 40px;
 		right: 0;
+	}
+
+	.responsiveNav li {
+		list-style: none;
+		text-align: left;
 	}
 }

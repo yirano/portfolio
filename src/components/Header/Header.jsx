@@ -28,7 +28,6 @@ export class Header extends Component {
 			<header>
 				<h3>yirano</h3>
 				<button onClick={this.menuActive} className="hamburgerMenu">
-					menu
 					<span />
 					<span />
 					<span />
