@@ -2,12 +2,11 @@
 	display: flex;
 	margin-top: 55px;
 	padding-bottom: 50px;
-	max-width: 1040px;
-	text-align: center;
 }
 
 .aboutLeftContent {
-	min-width: 45%;
+	min-width: 40%;
+	max-width: 45%;
 	display: flex;
 	align-items: flex-start;
 	overflow: hidden;
@@ -43,7 +42,6 @@
 }
 
 .profileImage {
-	/* max-height: fit-content; */
 	max-width: 100%;
 	position: relative;
 	top: -20px;
@@ -86,6 +84,7 @@
 		width: 100%;
 		left: 0;
 		margin-left: 0;
+		max-width: 100%;
 	}
 
 	.aboutTextWrap {
