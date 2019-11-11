@@ -1,31 +1,46 @@
 .about {
-	position: relative;
 	display: flex;
-	grid-template-columns: repeat(3, 1fr);
+	margin-top: 55px;
+}
+
+.aboutLeftContent {
+	flex-basis: 45%;
+	height: auto;
+	display: flex;
+	align-items: flex-start;
+	overflow: hidden;
+}
+
+.aboutRightContent {
+	position: relative;
+	left: -8%;
+}
+
+.aboutTextWrap {
+	display: flex;
+	flex-flow: column;
+	text-align: right;
+	position: relative;
+	height: 109px;
+	width: 483px;
+	top: 35%;
+}
+
+.aboutTextWrap h2 {
+	font-size: 2.5em;
+}
+
+.aboutTextWrap p {
+	font-size: 0.9em;
+	width: 70%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.profileImage {
+	max-height: fit-content;
 	width: 100%;
-	padding: 0 50px;
-	margin-bottom: 50px;
-}
-
-.aboutMeText .caption {
-	width: 300px;
-	letter-spacing: 0.1em;
-}
-
-.skillCards {
-	text-align: center;
-}
-
-.skillCard {
-	display: inline-block;
-	width: 20%;
-	margin: 10px;
-	border-radius: 5px;
-	padding: 40px 30px;
-	height: 200px;
-	text-align: center;
-}
-
-.skillCard img {
-	width: 45%;
+	position: relative;
+	top: -20px;
 }

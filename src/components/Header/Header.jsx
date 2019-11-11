@@ -30,13 +30,13 @@ export class Header extends Component {
 				<nav>
 					<ul>
 						<li>
-							<a href="#aboutMe">about me</a>
+							<a href="#about">about me</a>
 						</li>
 						<li>
 							<a href="#projects">projects</a>
 						</li>
 						<li>
-							<a href="#contactMe">contact me</a>
+							<a href="#contact">contact me</a>
 						</li>
 					</ul>
 				</nav>
