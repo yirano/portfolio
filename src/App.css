@@ -17,6 +17,7 @@ body {
 }
 
 main {
+	overflow-x: hidden;
 	position: relative;
 	max-width: 90%;
 	margin: 0 auto;
@@ -74,13 +75,10 @@ a:visited {
 	mix-blend-mode: screen;
 }
 
-section {
+section,
+footer {
 	width: 80%;
 	float: right;
-}
-
-footer {
-	display: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -88,7 +86,8 @@ footer {
 		font-size: 1.6em;
 	}
 
-	section {
+	section,
+	footer {
 		width: 100%;
 		float: none;
 	}

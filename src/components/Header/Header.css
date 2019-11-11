@@ -22,18 +22,18 @@ header nav a:visited {
 	line-height: 1.8em;
 }
 
-button {
+.hamburgerMenu {
 	display: none;
 }
 
 @media only screen and (max-width: 768px) {
 	header {
-		position: relative;
 		height: 70px;
 		width: 100%;
 		float: none;
-		padding-top: 0;
+		padding-top: 20px;
 		text-align: center;
+		position: fixed;
 	}
 
 	.hamburgerMenu {
@@ -47,9 +47,9 @@ button {
 		border: none;
 	}
 
-	button span:nth-child(1),
-	button span:nth-child(2),
-	button span:nth-child(3) {
+	.hamburgerMenu span:nth-child(1),
+	.hamburgerMenu span:nth-child(2),
+	.hamburgerMenu span:nth-child(3) {
 		content: '';
 		display: block;
 		width: 20px;

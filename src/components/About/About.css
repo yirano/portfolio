@@ -1,10 +1,12 @@
 .about {
 	display: flex;
 	margin-top: 55px;
+	padding-bottom: 50px;
 }
 
 .aboutLeftContent {
-	flex-basis: 45%;
+	min-width: 45%;
+	max-width: 55%;
 	height: auto;
 	display: flex;
 	align-items: flex-start;
@@ -13,7 +15,7 @@
 
 .aboutRightContent {
 	position: relative;
-	left: -8%;
+	left: -11%;
 }
 
 .aboutTextWrap {
@@ -22,8 +24,10 @@
 	text-align: right;
 	position: relative;
 	height: 109px;
+	min-height: 86px;
 	width: 483px;
 	top: 35%;
+	margin-right: 90px;
 }
 
 .aboutTextWrap h2 {
@@ -43,4 +47,61 @@
 	width: 100%;
 	position: relative;
 	top: -20px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.aboutTextWrap {
+		font-weight: 600;
+		font-size: 80%;
+		height: fit-content;
+	}
+	.aboutRightContent {
+		left: -28%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.aboutLeftContent {
+		margin-left: 50px;
+		margin-top: 50px;
+	}
+
+	.aboutRightContent {
+		left: -35%;
+	}
+
+	.aboutRightContent h2 {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.about {
+		flex-flow: column;
+		align-items: center;
+	}
+
+	.aboutLeftContent,
+	.aboutRightContent {
+		width: 100%;
+		left: 0;
+		margin-left: 0;
+	}
+
+	.aboutTextWrap {
+		text-align: center;
+		width: auto;
+		margin: 0;
+	}
+
+	.aboutTextWrap p {
+		position: relative;
+		width: 100%;
+		padding: 0 70px;
+	}
+
+	.profileImage {
+		width: 100%;
+		max-height: auto;
+	}
 }
