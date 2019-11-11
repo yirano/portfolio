@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3796a198.chunk.css",
-    "main.js": "/static/js/main.35634e87.chunk.js",
-    "main.js.map": "/static/js/main.35634e87.chunk.js.map",
+    "main.css": "/static/css/main.e4ae19bf.chunk.css",
+    "main.js": "/static/js/main.73fadbb3.chunk.js",
+    "main.js.map": "/static/js/main.73fadbb3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a93af8c9.js",
     "runtime-main.js.map": "/static/js/runtime-main.a93af8c9.js.map",
     "static/js/2.4694b0fe.chunk.js": "/static/js/2.4694b0fe.chunk.js",
     "static/js/2.4694b0fe.chunk.js.map": "/static/js/2.4694b0fe.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.49983873c61f232c64f4a59e946c455f.js": "/precache-manifest.49983873c61f232c64f4a59e946c455f.js",
+    "precache-manifest.b84b9fd21174c08f80eabf6933e5c055.js": "/precache-manifest.b84b9fd21174c08f80eabf6933e5c055.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3796a198.chunk.css.map": "/static/css/main.3796a198.chunk.css.map",
+    "static/css/main.e4ae19bf.chunk.css.map": "/static/css/main.e4ae19bf.chunk.css.map",
     "static/media/Apple.jpg": "/static/media/Apple.66046f5a.jpg",
     "static/media/BaseApparel.jpg": "/static/media/BaseApparel.1cb8b8de.jpg",
     "static/media/BookmarkLP.jpg": "/static/media/BookmarkLP.2b67dc47.jpg",
@@ -21,13 +21,13 @@
     "static/media/App.css": "/static/media/headerImg.dc12fb90.jpeg",
     "static/media/linkedin.svg": "/static/media/linkedin.1fb77bbd.svg",
     "static/media/responsive.svg": "/static/media/responsive.105f0f10.svg",
-    "static/media/self.JPG": "/static/media/self.0ae8e725.JPG",
+    "static/media/self.png": "/static/media/self.d5680899.png",
     "static/media/twitter.svg": "/static/media/twitter.e279f33f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a93af8c9.js",
     "static/js/2.4694b0fe.chunk.js",
-    "static/css/main.3796a198.chunk.css",
-    "static/js/main.35634e87.chunk.js"
+    "static/css/main.e4ae19bf.chunk.css",
+    "static/js/main.73fadbb3.chunk.js"
   ]
 }
