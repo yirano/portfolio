@@ -1,0 +1,52 @@
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	2% {
+		transform: scale(1.8);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.hero {
+	display: flex;
+	height: 100vh;
+	position: relative;
+	top: -20px;
+}
+
+.heroText {
+	position: absolute;
+	padding: inherit;
+	height: inherit;
+	background: url('../../images/headerImg.jpeg');
+	background-attachment: fixed;
+	width: 100%;
+}
+
+.heroText h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: inherit;
+	background-color: #fff;
+	font-weight: 500;
+	font-size: 5.4em;
+	color: black;
+	animation: pulse 500ms ease-in;
+
+	mix-blend-mode: screen;
+}
+
+@media only screen and (max-width: 767px) {
+	.hero {
+		height: 30vh;
+	}
+
+	.heroText h1 {
+		font-size: 4.4em;
+	}
+}

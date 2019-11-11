@@ -1,27 +1,27 @@
 .skills {
-	position: relative;
-	display: flex;
-	grid-template-columns: repeat(4, 1fr);
-	width: 100%;
-	padding: 0 50px;
-	margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  padding: 0 50px;
+  margin-bottom: 50px;
 }
 
 .skillCards {
-	text-align: center;
-	margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .skillCard {
-	display: inline-block;
-	width: 20%;
-	margin: 10px;
-	border-radius: 5px;
-	padding: 40px 30px;
-	height: 200px;
-	text-align: center;
+  display: inline-block;
+  width: 20%;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 40px 30px;
+  height: 200px;
+  text-align: center;
 }
 
 .skillCard img {
-	width: 45%;
+  width: 45%;
 }

@@ -1,75 +1,42 @@
-@keyframes navShow {
-	0% {
-		height: 0px;
-	}
-
-	100% {
-		height: 100%;
-	}
-}
-
-/* @keyframes slideDown {
-	100% {
-		height: 0px;
-		overflow: hidden;
-	}
-
-	0% {
-		height: 100%;
-	}
-} */
-
 header {
-	display: flex;
-	position: relative;
-	/* width: 100%; */
-	z-index: 999;
-	padding: 10px;
-	top: 0;
-	height: 100vh;
-	transition: all 500ms;
-	z-index: 999;
+	position: absolute;
+	width: 100vw;
 }
 
 nav {
-	position: relative;
-	display: flex;
+	width: -webkit-fill-available;
+	top: -50px;
+	opacity: 0;
+	transition: all 100ms;
 	z-index: 999;
-	text-align: center;
-	justify-content: center;
-	width: 100%;
-	margin: auto;
-	padding-top: 40px;
-	top: 0;
-}
-
-.navHide {
-	top: -600px;
-	height: 0;
-	transition: all 500ms;
 }
 
 nav a {
-	color: var(--black);
+	color: var(--white);
 	text-decoration: none;
-	font-size: 0.9em;
+	font-size: 0.7em;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
 
-nav a:visited {
-	color: var(--black);
-}
-
-nav li {
-	padding: 16px 10px;
-	list-style: none;
-}
-
-nav li:nth-child(5),
-nav li:nth-child(6),
-nav li:nth-child(7) {
+nav ul li {
 	display: inline-block;
+	padding: 6px 10px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0px;
+	opacity: 1;
+	transition: all 100ms;
+	background-color: var(--black);
+	padding: 3px;
+	width: 100%;
+	z-index: 9999;
+}
+
+.socialLinks {
+	float: left;
 }
 
 .navLinks {
@@ -78,17 +45,4 @@ nav li:nth-child(7) {
 
 nav img {
 	width: 20px;
-	position: relative;
-	top: 4px;
-}
-
-.menuIcon {
-	position: fixed;
-	top: 20px;
-	right: 20px;
-	z-index: 9999999;
-	padding: 6px 12px;
-	background: none;
-	border: none;
-	outline: none;
 }
