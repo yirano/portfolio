@@ -21,3 +21,36 @@ header nav a:visited {
 	text-decoration: none;
 	line-height: 1.8em;
 }
+
+button {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+		position: relative;
+		height: 70px;
+		width: 100%;
+		float: none;
+		padding-top: 0;
+		text-align: center;
+	}
+
+	button {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.responsiveNav {
+		display: block;
+		position: absolute;
+		top: 40px;
+		right: 0;
+	}
+}

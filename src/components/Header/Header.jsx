@@ -27,7 +27,14 @@ export class Header extends Component {
 		return (
 			<header>
 				<h3>yirano</h3>
-				<nav>
+				<button onClick={this.menuActive} className="hamburgerMenu">
+					menu
+					<span />
+					<span />
+					<span />
+				</button>
+
+				<nav className={this.state.menuActive ? 'responsiveNav' : null}>
 					<ul>
 						<li>
 							<a href="#about">about me</a>
