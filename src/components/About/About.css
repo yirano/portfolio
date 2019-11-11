@@ -2,12 +2,12 @@
 	display: flex;
 	margin-top: 55px;
 	padding-bottom: 50px;
+	max-width: 1040px;
+	text-align: center;
 }
 
 .aboutLeftContent {
 	min-width: 45%;
-	max-width: 55%;
-	height: auto;
 	display: flex;
 	align-items: flex-start;
 	overflow: hidden;
@@ -43,8 +43,8 @@
 }
 
 .profileImage {
-	max-height: fit-content;
-	width: 100%;
+	/* max-height: fit-content; */
+	max-width: 100%;
 	position: relative;
 	top: -20px;
 }
