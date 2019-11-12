@@ -1,12 +1,15 @@
 .about {
-	display: flex;
-	margin-top: 55px;
+	display: grid;
+	margin-top: 65px;
 	padding-bottom: 50px;
 }
 
+.topContent {
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
 .aboutLeftContent {
-	min-width: 40%;
-	max-width: 45%;
 	display: flex;
 	align-items: flex-start;
 	overflow: hidden;
@@ -14,19 +17,17 @@
 
 .aboutRightContent {
 	position: relative;
-	left: -11%;
+	padding: 20px;
 }
 
 .aboutTextWrap {
 	display: flex;
 	flex-flow: column;
-	text-align: right;
+	text-align: left;
 	position: relative;
 	height: 109px;
 	min-height: 86px;
 	width: 483px;
-	top: 35%;
-	margin-right: 90px;
 }
 
 .aboutTextWrap h2 {
@@ -34,17 +35,15 @@
 }
 
 .aboutTextWrap p {
-	font-size: 0.9em;
-	width: 70%;
-	position: absolute;
+	font-size: 1em;
 	right: 0;
 	bottom: 0;
+	text-align: right;
 }
 
 .profileImage {
-	max-width: 100%;
+	width: 400px;
 	position: relative;
-	top: -20px;
 }
 
 @media only screen and (max-width: 1024px) {
