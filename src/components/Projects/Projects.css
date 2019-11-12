@@ -37,15 +37,16 @@
 .projectCardText {
 	position: absolute;
 	top: 0;
-	padding: 20px 30px;
+	padding: 7px 12px;
 	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
 	transition: all 500ms;
 }
 
 .projectCardTitle {
-	margin: 20px 0;
-	padding-bottom: 14px;
+	margin-top: 9px;
+	margin-bottom: 4px;
+	padding-bottom: 9px;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -56,11 +57,14 @@
 }
 
 .projectDesc {
-	font-size: 0.96em;
+	font-size: 0.84em;
 	margin-bottom: 13px;
 	color: var(--dark-gray);
 	letter-spacing: 0.09em;
 	line-height: 1.3em;
+	height: 100px;
+	overflow-y: scroll;
+	padding: 0 8px;
 }
 
 .projectCardList {

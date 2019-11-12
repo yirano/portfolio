@@ -15,7 +15,7 @@ const projectLibrary = [
 		projectURL: 'https://yirano.github.io/react-luna_living/',
 		projectLang: [ 'html', 'css', 'javascript', 'react', 'illustrator' ],
 		projectDesc:
-			'This was the first project that I researched, planned, designed, and developed. I am quite proud of this one as the timeframe from learning the basic fundamentals of design to familiarizing myself with Adobe Illustrator to its final deployment was a span of four days. (~33hrs)',
+			'This was the first project that I researched, designed, and developed. The timeframe from learning the basic fundamentals of design to familiarizing myself with Adobe Illustrator to its final deployment was a span of four days. (~33hrs)',
 		active: false
 	},
 	{

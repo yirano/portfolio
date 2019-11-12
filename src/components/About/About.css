@@ -2,17 +2,14 @@
 	display: grid;
 	margin-top: 65px;
 	padding-bottom: 50px;
-	grid-template-areas:
-		'top top'
-		'left right'
-	;
+	grid-template-areas: 'top top' 'left right';
 }
 
 .topContent {
 	text-align: center;
 	grid-area: top;
 	padding: 14px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	width: 100%;
 	border-top: 3px solid var(--black);
 	border-bottom: 3px double var(--black);
@@ -26,11 +23,15 @@
 
 .aboutLeftContent {
 	grid-area: left;
+	padding-left: 20px;
+}
+
+.aboutImgContainer {
 	display: flex;
 	align-items: flex-start;
 	width: 20em;
-	height: 20em;
-	border-radius: 50%;
+	height: 24em;
+	border-radius: 4px;
 	overflow: hidden;
 }
 
@@ -44,9 +45,7 @@
 	flex-flow: column;
 	text-align: left;
 	position: relative;
-	height: 109px;
 	min-height: 86px;
-	width: 483px;
 }
 
 .aboutTextWrap h2 {
@@ -54,17 +53,29 @@
 }
 
 .aboutTextWrap p {
-	font-size: 1em;
-	right: 0;
-	bottom: 0;
-	text-align: right;
+	font-size: 1.2em;
+	color: #676767;
+	width: 98%;
+	line-height: 1.6em;
+	font-weight: 300;
+}
+
+.aboutTextWrap p::before {
+	content: open-quote;
+	font-size: 3em;
+	padding: 10px;
+	float: left;
+	position: relative;
+	top: -20px;
+	color: var(--dark-gray);
+	font-style: normal;
+	line-height: 1em;
 }
 
 .profileImage {
 	width: 100%;
 	position: relative;
-	top: -41px;
-	/* left: -13px; */
+	top: -24px;
 }
 
 @media only screen and (max-width: 1024px) {
