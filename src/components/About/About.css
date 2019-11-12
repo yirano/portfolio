@@ -2,16 +2,35 @@
 	display: grid;
 	margin-top: 65px;
 	padding-bottom: 50px;
+	grid-template-areas:
+		'top top'
+		'left right'
+	;
 }
 
 .topContent {
-	margin: 0 auto;
-	padding-bottom: 30px;
+	text-align: center;
+	grid-area: top;
+	padding: 14px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-top: 3px solid var(--black);
+	border-bottom: 3px double var(--black);
+}
+
+.topContent h3 {
+	font-size: 1.8em;
+	font-weight: lighter;
+	letter-spacing: 0.007em;
 }
 
 .aboutLeftContent {
+	grid-area: left;
 	display: flex;
 	align-items: flex-start;
+	width: 20em;
+	height: 20em;
+	border-radius: 50%;
 	overflow: hidden;
 }
 
@@ -42,8 +61,10 @@
 }
 
 .profileImage {
-	width: 400px;
+	width: 100%;
 	position: relative;
+	top: -41px;
+	/* left: -13px; */
 }
 
 @media only screen and (max-width: 1024px) {
@@ -52,6 +73,7 @@
 		font-size: 95%;
 		height: fit-content;
 	}
+
 	.aboutRightContent {
 		left: -28%;
 	}
