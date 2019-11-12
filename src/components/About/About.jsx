@@ -13,7 +13,7 @@ export class About extends Component {
 					<div className="aboutTextWrap">
 						<h2>I'm a Frontend Developer</h2>
 						<p>
-							My strength lies in development but combined with my experience in user testing and design,
+							My strength lies in development but combined with my experience in design and user testing,
 							I create with the user's experience in mind.
 						</p>
 					</div>

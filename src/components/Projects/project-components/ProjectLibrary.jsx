@@ -4,8 +4,20 @@ import BaseApparel from '../../../images/projectImgs/BaseApparel.jpg';
 import ProjectIntro from '../../../images/projectImgs/ProjectIntro.jpg';
 import Apple from '../../../images/projectImgs/Apple.jpg';
 import FashionBlog from '../../../images/projectImgs/FashionBlog.jpg';
+import LunaLiving from '../../../images/projectImgs/LunaLiving.png';
 
 const projectLibrary = [
+	{
+		id: 6,
+		image: LunaLiving,
+		projectName: 'Luna Life',
+		projectGit: 'https://github.com/yirano/react-luna_living',
+		projectURL: 'https://yirano.github.io/react-luna_living/',
+		projectLang: [ 'html', 'css', 'javascript', 'react', 'illustrator' ],
+		projectDesc:
+			'This was the first project that I researched, planned, designed, and developed. I am quite proud of this one as the timeframe from learning the basic fundamentals of design to familiarizing myself with Adobe Illustrator to its final deployment was a span of four days. (~33hrs)',
+		active: false
+	},
 	{
 		id: 0,
 		image: BookmarkLP,
