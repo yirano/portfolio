@@ -47,17 +47,17 @@ export class Header extends Component {
 					</ul>
 					<ul className="socialLinks">
 						<li>
-							<a href="twitter.com/yiirano" target="_blank">
+							<a href="https://twitter.com/yiirano" target="_blank">
 								<img src={Twitter} width="30px" alt="social media icon" />
 							</a>
 						</li>
 						<li>
-							<a href="github.com/yirano" target="_blank">
+							<a href="https://github.com/yirano" target="_blank">
 								<img src={Github} width="30px" alt="social media icon" />
 							</a>
 						</li>
 						<li>
-							<a href="www.linkedin.com/in/yt-arellano" target="_blank">
+							<a href="https://www.linkedin.com/in/yt-arellano" target="_blank">
 								<img src={LinkedIn} width="30px" alt="social media icon" />
 							</a>
 						</li>
