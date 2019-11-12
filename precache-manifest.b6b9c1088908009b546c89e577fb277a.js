@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fa4353e681cd0462b78638158dcb841",
+    "revision": "35b394ff0c3791a78475486e46d82490",
     "url": "/index.html"
   },
   {
-    "revision": "319e2a7d96101ca5832c",
-    "url": "/static/css/main.e4ae19bf.chunk.css"
+    "revision": "3e9b4200c61b4ee7a58c",
+    "url": "/static/css/main.dca51805.chunk.css"
   },
   {
-    "revision": "3507092a2997e3644a13",
-    "url": "/static/js/2.4694b0fe.chunk.js"
+    "revision": "a916a46731f24bf2f570",
+    "url": "/static/js/2.5340122c.chunk.js"
   },
   {
-    "revision": "319e2a7d96101ca5832c",
-    "url": "/static/js/main.856dbe19.chunk.js"
+    "revision": "3e9b4200c61b4ee7a58c",
+    "url": "/static/js/main.014c642c.chunk.js"
   },
   {
     "revision": "7d34b7a885d63b82ef0d",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "de7f643d8a4dfc698fd2ecd9dfb0f405",
     "url": "/static/media/FourCard.de7f643d.jpg"
+  },
+  {
+    "revision": "a48363eb6a0776be97d0b791551eb088",
+    "url": "/static/media/LunaLiving.a48363eb.png"
   },
   {
     "revision": "317df18a8663639f2aed24e251f6f26e",
