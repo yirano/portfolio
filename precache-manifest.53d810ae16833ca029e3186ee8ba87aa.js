@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54c8e76a88ca5663873763cbc694f5a6",
+    "revision": "85128a79e4f66324bc19989f3b274695",
     "url": "/index.html"
   },
   {
-    "revision": "a80d91611c999f4ded7b",
-    "url": "/static/css/main.5202c498.chunk.css"
+    "revision": "d65d84c49836a3ebd8fd",
+    "url": "/static/css/main.e3e98270.chunk.css"
   },
   {
-    "revision": "c836b3daee46dae0b6d8",
-    "url": "/static/js/2.da06d5c4.chunk.js"
+    "revision": "c1a1b14de33458a8e2cf",
+    "url": "/static/js/2.dfae169b.chunk.js"
   },
   {
-    "revision": "a80d91611c999f4ded7b",
-    "url": "/static/js/main.dcc04e46.chunk.js"
+    "revision": "d65d84c49836a3ebd8fd",
+    "url": "/static/js/main.548014d7.chunk.js"
   },
   {
     "revision": "7d34b7a885d63b82ef0d",
@@ -56,11 +56,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.1fb77bbd.svg"
   },
   {
+    "revision": "879abf58af986f7c9e1beb77fc1018ec",
+    "url": "/static/media/newsweek.879abf58.png"
+  },
+  {
     "revision": "0ae8e725f50a82eb69f15b3d21ffadee",
     "url": "/static/media/self.0ae8e725.JPG"
   },
   {
     "revision": "e279f33f81cffb236db9e0216da2d97b",
     "url": "/static/media/twitter.e279f33f.svg"
+  },
+  {
+    "revision": "b9d8e0283163b426371dbb6f46cc11a9",
+    "url": "/static/media/weddingPhotographer.b9d8e028.png"
   }
 ]);

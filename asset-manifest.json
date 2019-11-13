@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5202c498.chunk.css",
-    "main.js": "/static/js/main.dcc04e46.chunk.js",
-    "main.js.map": "/static/js/main.dcc04e46.chunk.js.map",
+    "main.css": "/static/css/main.e3e98270.chunk.css",
+    "main.js": "/static/js/main.548014d7.chunk.js",
+    "main.js.map": "/static/js/main.548014d7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a93af8c9.js",
     "runtime-main.js.map": "/static/js/runtime-main.a93af8c9.js.map",
-    "static/js/2.da06d5c4.chunk.js": "/static/js/2.da06d5c4.chunk.js",
-    "static/js/2.da06d5c4.chunk.js.map": "/static/js/2.da06d5c4.chunk.js.map",
+    "static/js/2.dfae169b.chunk.js": "/static/js/2.dfae169b.chunk.js",
+    "static/js/2.dfae169b.chunk.js.map": "/static/js/2.dfae169b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.212b93eb22d8dd3fd0ddb7a98949a68f.js": "/precache-manifest.212b93eb22d8dd3fd0ddb7a98949a68f.js",
+    "precache-manifest.53d810ae16833ca029e3186ee8ba87aa.js": "/precache-manifest.53d810ae16833ca029e3186ee8ba87aa.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5202c498.chunk.css.map": "/static/css/main.5202c498.chunk.css.map",
+    "static/css/main.e3e98270.chunk.css.map": "/static/css/main.e3e98270.chunk.css.map",
     "static/media/Apple.jpg": "/static/media/Apple.66046f5a.jpg",
     "static/media/BaseApparel.jpg": "/static/media/BaseApparel.1cb8b8de.jpg",
     "static/media/BookmarkLP.jpg": "/static/media/BookmarkLP.2b67dc47.jpg",
@@ -20,13 +20,15 @@
     "static/media/ProjectIntro.jpg": "/static/media/ProjectIntro.317df18a.jpg",
     "static/media/github.svg": "/static/media/github.6d58394e.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.1fb77bbd.svg",
+    "static/media/newsweek.png": "/static/media/newsweek.879abf58.png",
     "static/media/self.JPG": "/static/media/self.0ae8e725.JPG",
-    "static/media/twitter.svg": "/static/media/twitter.e279f33f.svg"
+    "static/media/twitter.svg": "/static/media/twitter.e279f33f.svg",
+    "static/media/weddingPhotographer.png": "/static/media/weddingPhotographer.b9d8e028.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a93af8c9.js",
-    "static/js/2.da06d5c4.chunk.js",
-    "static/css/main.5202c498.chunk.css",
-    "static/js/main.dcc04e46.chunk.js"
+    "static/js/2.dfae169b.chunk.js",
+    "static/css/main.e3e98270.chunk.css",
+    "static/js/main.548014d7.chunk.js"
   ]
 }
