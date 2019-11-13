@@ -7,19 +7,10 @@ export class About extends Component {
 		return (
 			<section className="about" id="about">
 				<div className="topContent">
-					<h3>My name is Tiffany &amp; I'm a Frontend Developer.</h3>
-				</div>
-				<div className="aboutRightContent">
-					<div className="aboutTextWrap">
-						<p className="quote">
-							Combined with my experience in testing &amp; design, I create with the user in mind.
-						</p>
-
-						<p>
-							A former math major turned web developer, I have invested the past two years learning &amp;
-							creating. I find joy in overcoming the challenges{' '}
-						</p>
-					</div>
+					<h3>
+						<span className="quote">My name is Tiffany Arellano &amp; I am a Frontend Developer</span>.<br />
+						Combined with my experience in user testing and design, I create with the user in mind.
+					</h3>
 				</div>
 			</section>
 		);

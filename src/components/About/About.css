@@ -1,55 +1,27 @@
 .about {
 	display: flex;
-	margin-top: 65px;
-	padding-bottom: 50px;
+	margin: 65px 0;
 	flex-flow: column;
-	grid-template-areas: 'top top' 'left right';
+	padding: 90px 0;
 }
 
 .topContent {
-	text-align: center;
-	grid-area: top;
-	padding: 14px;
-	margin-bottom: 20px;
-	width: 100%;
-	border-top: 3px solid var(--black);
-	border-bottom: 3px double var(--black);
+	width: 90%;
+	line-height: 2.5em;
 }
 
 .topContent h3 {
-	font-size: 1.8em;
+	font-size: 1.6em;
 	font-weight: lighter;
 	letter-spacing: 0.007em;
 }
 
-.aboutRightContent {
-	position: relative;
-	padding: 20px;
-}
-
-.aboutTextWrap {
-	display: flex;
-	flex-flow: column;
-	text-align: left;
-	position: relative;
-	min-height: 86px;
-}
-
-.aboutTextWrap h2 {
-	font-size: 2.5em;
-}
-
-.aboutTextWrap .quote {
-	font-size: 1.2em;
-	width: 98%;
-	line-height: 1.6em;
-	font-weight: 500;
+.quote {
+	font-family: 'Quattrocento', serif;
 	font-style: italic;
-	text-align: center;
-	margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
 	.aboutTextWrap {
 		font-weight: 600;
 		font-size: 95%;
@@ -59,7 +31,7 @@
 	.aboutRightContent {
 		left: -28%;
 	}
-}
+} */
 
 @media only screen and (max-width: 768px) {
 	.aboutLeftContent {
@@ -73,6 +45,10 @@
 
 	.aboutRightContent h2 {
 		font-size: 2em;
+	}
+
+	.topContent h3 {
+		font-size: 1.2em;
 	}
 }
 

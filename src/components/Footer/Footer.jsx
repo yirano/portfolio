@@ -7,7 +7,7 @@ import './Footer.css';
 export default function Footer() {
 	return (
 		<footer>
-			<h4>yirano</h4>
+			<h4>y.</h4>
 			<div className="footerLinks ">
 				<ul>
 					<li>

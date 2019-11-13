@@ -22,56 +22,84 @@ export default class Skills extends React.Component {
 	render() {
 		return (
 			<section className="skills" id="skills">
-				<div className="skillCards">
+				<div className="skillsText">
+					<table className="skillTable">
+						<tbody>
+							<tr>
+								<th>skilled in</th>
+							</tr>
+							<tr>
+								<td>HTML5/CSS3</td>
+							</tr>
+							<tr>
+								<td>Javascript</td>
+							</tr>
+							<tr>
+								<td>ReactJS</td>
+							</tr>
+							<tr>
+								<td>Bootstrap</td>
+							</tr>
+							<tr>
+								<td>Responsive Design</td>
+							</tr>
+							<tr>
+								<td>Photoshop</td>
+							</tr>
+							<tr>
+								<td>Illustrator</td>
+							</tr>
+							<tr>
+								<td>User Testing</td>
+							</tr>
+							<tr>
+								<td>Ruby</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				{/* <div className="skillCards">
 					<div className="skillCard htmlcss" onMouseEnter={this.showHtmlCount}>
 						<div className="cardTitle">
 							<img src={HTMLCSS} alt="HTML/CSS icon" />
-							{/* <h4>HTML3/CSS3</h4> */}
 						</div>
 					</div>
 					<div className="skillCard js">
 						<div className="cardTitle">
 							<img src={Javascript} alt="Javascript icon" />
-							{/* <h4>Javascript</h4> */}
 						</div>
 					</div>
 					<div className="skillCard bootstrap">
 						<div className="cardTitle">
 							<img src={Bootstrap} alt="Javascript icon" />
-							{/* <h4>Bootstrap</h4> */}
 						</div>
 					</div>
 					<div className="skillCard react">
 						<div className="cardTitle">
 							<img src={ReactIcon} alt="React icon" />
-							{/* <h4>ReactJS</h4> */}
 						</div>
 					</div>
 					<div className="skillCard responsive">
 						<div className="cardTitle">
 							<img src={Responsive} alt="Responsive icon" />
-							{/* <h4>Responsive</h4> */}
 						</div>
 					</div>
 					<div className="skillCard photoshop">
 						<div className="cardTitle">
 							<img src={Photoshop} alt="Photoshop icon" />
-							{/* <h4>Photoshop</h4> */}
 						</div>
 					</div>
 					<div className="skillCard git">
 						<div className="cardTitle">
 							<img src={Illustrator} alt="Adobe Illustrator icon" />
-							{/* <h4>Illustrator</h4> */}
 						</div>
 					</div>
 					<div className="skillCard ux">
 						<div className="cardTitle">
 							<img src={UX} alt="UX icon" />
-							{/* <h4>User Testing</h4> */}
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</section>
 		);
 	}

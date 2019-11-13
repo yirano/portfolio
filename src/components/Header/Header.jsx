@@ -27,7 +27,7 @@ export class Header extends Component {
 	render() {
 		return (
 			<header>
-				<h3>yirano</h3>
+				<h3>y.</h3>
 				<button onClick={this.menuActive} className="hamburgerMenu">
 					<span />
 					<span />
@@ -48,18 +48,18 @@ export class Header extends Component {
 					</ul>
 					<ul className="socialLinks">
 						<li>
-							<a href="https://twitter.com/yiirano" target="_blank">
-								<img src={Twitter} width="30px" alt="social media icon" />
+							<a href="https://twitter.com/yiirano" target="_blank" rel="noopener noreferrer">
+								<img src={Twitter} width="22px" alt="social media icon" />
 							</a>
 						</li>
 						<li>
-							<a href="https://github.com/yirano" target="_blank">
-								<img src={Github} width="30px" alt="social media icon" />
+							<a href="https://github.com/yirano" target="_blank" rel="noopener noreferrer">
+								<img src={Github} width="22px" alt="social media icon" />
 							</a>
 						</li>
 						<li>
-							<a href="https://www.linkedin.com/in/yt-arellano" target="_blank">
-								<img src={LinkedIn} width="30px" alt="social media icon" />
+							<a href="https://www.linkedin.com/in/yt-arellano" target="_blank" rel="noopener noreferrer">
+								<img src={LinkedIn} width="22px" alt="social media icon" />
 							</a>
 						</li>
 					</ul>

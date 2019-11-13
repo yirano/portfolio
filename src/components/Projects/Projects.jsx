@@ -29,15 +29,11 @@ export class Projects extends Component {
 			opacity: 1,
 			transition: 'all 600ms'
 		};
-		const headerStyle = {
-			textAlign: 'center',
-			padding: '20px 0'
-		};
 
 		return (
 			<section className="projectShelf" id="projects">
 				<div className="sectionTitle">
-					<h3 style={headerStyle}>selected works</h3>
+					<h3>selected works</h3>
 				</div>
 				<div className="projectBook">
 					{this.state.projects.map(

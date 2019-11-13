@@ -36,7 +36,7 @@ class Contact extends Component {
 		return (
 			<section className="contactContainer" id="contact">
 				<div className="sectionTitle">
-					<h3>I'd love to hear from you!</h3>
+					<h3>shoot me a message</h3>
 				</div>
 
 				<div className="contactFlexwrap">
