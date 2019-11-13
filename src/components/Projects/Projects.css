@@ -57,12 +57,12 @@
 }
 
 .projectDesc {
-	font-size: 0.84em;
+	font-size: 0.89em;
 	margin-bottom: 13px;
 	color: var(--dark-gray);
 	letter-spacing: 0.09em;
 	line-height: 1.3em;
-	height: 100px;
+	height: 139px;
 	overflow-y: scroll;
 	padding: 0 8px;
 }

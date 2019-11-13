@@ -19,7 +19,7 @@ body {
 main {
 	overflow-x: hidden;
 	position: relative;
-	max-width: 90%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 p section {

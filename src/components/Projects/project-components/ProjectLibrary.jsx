@@ -5,6 +5,8 @@ import ProjectIntro from '../../../images/projectImgs/ProjectIntro.jpg';
 import Apple from '../../../images/projectImgs/Apple.jpg';
 import FashionBlog from '../../../images/projectImgs/FashionBlog.jpg';
 import LunaLiving from '../../../images/projectImgs/LunaLiving.png';
+import NewsWeek from '../../../images/projectImgs/newsweek.png';
+import Wedding from '../../../images/projectImgs/weddingPhotographer.png';
 
 const projectLibrary = [
 	{
@@ -53,7 +55,7 @@ const projectLibrary = [
 	{
 		id: 3,
 		image: ProjectIntro,
-		projectName: 'Project Tracking Introduction',
+		projectName: 'Project Track Intro',
 		projectGit: 'https://github.com/yirano/frontend-project_tracking_intro',
 		projectURL: 'https://yirano.github.io/frontend-project_tracking_intro/src/',
 		projectLang: [ 'html', 'css', 'javascript' ],
@@ -81,6 +83,26 @@ const projectLibrary = [
 		projectLang: [ 'html', 'css', 'javascript' ],
 		projectDesc:
 			'One of the very first designs I mocked from a theme found on Themeforest, I, once again, learned clever UI and UX design. I enjoyed developing the unique way of keeping the user engaged without cluttering the website.',
+		active: false
+	},
+	{
+		id: 7,
+		image: NewsWeek,
+		projectName: 'NewsWeek Mockup',
+		projectGit: 'https://github.com/yirano/frontend-bootstrap-newsweek',
+		projectURL: 'https://yirano.github.io/frontend-bootstrap-newsweek/src/',
+		projectLang: [ 'html', 'css', 'bootstrap' ],
+		projectDesc: 'A mockup of the NewsWeek website of current.',
+		active: false
+	},
+	{
+		id: 8,
+		image: Wedding,
+		projectName: 'Wedding Blog',
+		projectGit: 'https://github.com/yirano/frontend-wedding_photographer',
+		projectURL: 'https://yirano.github.io/frontend-wedding_photographer/',
+		projectLang: [ 'html', 'css', 'javascript' ],
+		projectDesc: 'One of my early projects for wedding photographers/bloggers.',
 		active: false
 	}
 ];
