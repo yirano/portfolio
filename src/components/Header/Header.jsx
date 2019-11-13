@@ -23,6 +23,7 @@ export class Header extends Component {
 			return (prevState.menuActive = !prevState.menuActive);
 		});
 	};
+
 	render() {
 		return (
 			<header>

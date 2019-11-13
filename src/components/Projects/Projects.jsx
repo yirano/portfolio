@@ -37,7 +37,7 @@ export class Projects extends Component {
 		return (
 			<section className="projectShelf" id="projects">
 				<div className="sectionTitle">
-					<h3 style={headerStyle}>Projects</h3>
+					<h3 style={headerStyle}>selected works</h3>
 				</div>
 				<div className="projectBook">
 					{this.state.projects.map(
