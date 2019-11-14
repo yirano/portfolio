@@ -13,16 +13,7 @@ export class Projects extends Component {
 		};
 	}
 
-	flip = (id) => {
-		this.state.projects.map((project) => {
-			this.setState((prevState) => {
-				if (project.id === id) {
-					return (project.active = !project.active);
-				}
-			});
-			return project.active;
-		});
-	};
+	projectHover = (id) => {};
 
 	render(props) {
 		const opacity = {
@@ -38,19 +29,10 @@ export class Projects extends Component {
 				<div className="projectBook">
 					{this.state.projects.map(
 						({ id, image, projectName, active, projectGit, projectURL, projectLang, projectDesc }) => (
-							<div
-								key={id}
-								className="projectShelfCard"
-								onMouseEnter={() => this.flip(id)}
-								onMouseLeave={() => this.flip(id)}
-							>
-								<img src={image} alt="" className={active ? 'cardFlip' : ''} />
-								<div className="projectCardText" style={active ? opacity : null}>
-									<h3 className="projectCardTitle"> {projectName}</h3>
-									<p className="projectDesc">{projectDesc}</p>
-								</div>
+							<div key={id} className="projectShelfCard" onMouseEnter={this.projectHover}>
+								<img src={image} alt={projectName} />
 
-								<ul className="projectCardList" style={active ? opacity : null}>
+								{/* <ul className="projectCardList" style={active ? opacity : null}>
 									<li>
 										<a href={projectURL} target="_blank" rel="noopener noreferrer">
 											Live Page
@@ -61,7 +43,7 @@ export class Projects extends Component {
 											Github
 										</a>
 									</li>
-								</ul>
+								</ul> */}
 							</div>
 						)
 					)}

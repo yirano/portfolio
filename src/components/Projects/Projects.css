@@ -8,6 +8,18 @@
 	}
 }
 
+@keyframes scale {
+	0% {
+		transform: scale(1);
+		z-index: 99999;
+	}
+
+	100% {
+		transform: scale(1.05);
+		z-index: 999999999;
+	}
+}
+
 .projectShelf {
 	align-items: center;
 	padding-bottom: 120px;
@@ -23,11 +35,22 @@
 	break-inside: avoid;
 	justify-content: center;
 	height: 100%;
-	z-index: 9999999;
+	z-index: 99;
+	transition: all 3000ms linear;
 }
 
 .projectShelfCard img {
 	width: 100%;
+	filter: grayscale(0.33);
+}
+
+.projectShelfCard:hover {
+	animation: scale 300ms forwards;
+	cursor: pointer;
+}
+
+.projectShelfCard img:hover {
+	filter: grayscale(0);
 }
 
 .cardFlip {
