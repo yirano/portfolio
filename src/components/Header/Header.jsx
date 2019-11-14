@@ -1,55 +1,67 @@
-import React, { Component } from 'react';
-import Github from '../../images/SVG/github.svg';
-import LinkedIn from '../../images/SVG/linkedin.svg';
-import Twitter from '../../images/SVG/twitter.svg';
-import './Header.css';
+import React, { Component } from "react";
+import Github from "../../images/SVG/github.svg";
+import LinkedIn from "../../images/SVG/linkedin.svg";
+import Twitter from "../../images/SVG/twitter.svg";
+import "./Header.css";
 
 export class Header extends Component {
-	constructor() {
-		super();
-		this.state = {
-			menuActive: false
-		};
-	}
+  constructor() {
+    super();
+    this.state = {
+      menuActive: false
+    };
+  }
 
-	menuActive = () => {
-		this.setState((prevState) => {
-			return (prevState.menuActive = !prevState.menuActive);
-		});
-	};
+  menuActive = () => {
+    this.setState(prevState => {
+      return (prevState.menuActive = !prevState.menuActive);
+    });
+  };
 
-	render() {
-		return (
-			<header>
-				<button onClick={this.menuActive} className="hamburgerMenu">
-					<span />
-					<span />
-					<span />
-				</button>
+  render() {
+    return (
+      <header>
+        <button onClick={this.menuActive} className="hamburgerMenu">
+          <span />
+          <span />
+          <span />
+        </button>
 
-				<nav className={this.state.menuActive ? 'responsiveNav' : null}>
-					<h3>y.</h3>
-					<ul className="socialLinks">
-						<li>
-							<a href="https://twitter.com/yiirano" target="_blank" rel="noopener noreferrer">
-								<img src={Twitter} width="22px" alt="social media icon" />
-							</a>
-						</li>
-						<li>
-							<a href="https://github.com/yirano" target="_blank" rel="noopener noreferrer">
-								<img src={Github} width="22px" alt="social media icon" />
-							</a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/yt-arellano" target="_blank" rel="noopener noreferrer">
-								<img src={LinkedIn} width="22px" alt="social media icon" />
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</header>
-		);
-	}
+        <nav>
+          <h3>y.</h3>
+          <ul className="socialLinks">
+            <li>
+              <a
+                href="https://twitter.com/yiirano"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Twitter} width="22px" alt="social media icon" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/yirano"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Github} width="22px" alt="social media icon" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/yt-arellano"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={LinkedIn} width="22px" alt="social media icon" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    );
+  }
 }
 
 export default Header;
