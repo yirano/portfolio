@@ -7,7 +7,7 @@ header {
 	width: 15%;
 	background-color: #fff;
 	z-index: 99999;
-	text-align: right;
+	text-align: center;
 	padding-top: 60px;
 }
 
@@ -32,7 +32,7 @@ header nav a:visited {
 
 .socialLinks li {
 	display: inline-block;
-	margin-left: 30px;
+	margin: 0 6px;
 }
 
 @media only screen and (max-width: 768px) {

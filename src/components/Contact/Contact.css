@@ -1,3 +1,39 @@
+.contact {
+	position: absolute;
+	height: 100%;
+}
+
+.contactPosition {
+	position: absolute;
+	z-index: 99999998;
+	background-color: var(--black);
+	height: 100%;
+	width: 100vw;
+	padding: 60px 40px;
+	opacity: 0.96;
+}
+
+.contactActivate {
+	position: fixed;
+	z-index: 99999999;
+	height: 70px;
+	width: 70px;
+	background-color: var(--black);
+	background: url('../../images/icons/feather-pen.png') no-repeat #000;
+	background-position: center;
+	background-size: 40px;
+	color: var(--white);
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	bottom: 20px;
+	left: 20px;
+}
+
+.contactHide {
+	display: none;
+}
+
 .contactFlexwrap {
 	padding: 50px 0;
 	height: 600px;
@@ -34,7 +70,8 @@ textarea {
 	line-height: 2.4em;
 	font-size: 0.8em;
 	letter-spacing: 0.07em;
-	color: var(--dark-gray);
+	color: var(--white);
+	background-color: var(--black);
 }
 
 ::placeholder {
@@ -47,16 +84,17 @@ textarea {
 	border: none;
 	font-size: 0.9em;
 	resize: none;
+	background-color: var(--black);
 }
 
 form button {
 	position: absolute;
 	bottom: 0;
 	height: 50px;
-	background-color: var(--black);
+	background-color: var(--white);
 	width: 100%;
 	border: transparent;
-	color: var(--white);
+	color: var(--black);
 	text-transform: uppercase;
 	outline: none;
 }
