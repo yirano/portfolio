@@ -15,6 +15,20 @@
 	opacity: 0.96;
 }
 
+@keyframes bounce {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.2);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
 .contactActivate {
 	position: fixed;
 	z-index: 99999999;
@@ -30,6 +44,8 @@
 	outline: none;
 	bottom: 20px;
 	left: 20px;
+
+	animation: bounce 2000ms infinite;
 }
 
 .contactHide {

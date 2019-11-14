@@ -88,8 +88,8 @@ section,
 footer {
 	width: 95%;
 	float: right;
-	/* padding: 0 40px; */
-	padding-left: 10px;
+	padding: 0 40px 0 10px;
+	/* padding-left: 10px; */
 }
 
 ::-webkit-scrollbar {
