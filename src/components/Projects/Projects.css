@@ -23,6 +23,7 @@
 .projectShelf {
 	align-items: center;
 	padding-bottom: 120px;
+	position: relative;
 }
 
 .projectBook {
@@ -120,6 +121,14 @@
 	border-bottom: 6px solid #f2d4929f;
 	margin-top: -15px;
 	margin-left: -5px;
+}
+
+/* Project Spotlight */
+
+.projectSpotLight {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 @media only screen and (min-width: 1441px) {
