@@ -22,6 +22,7 @@ main {
 	max-width: 100%;
 	margin: 0 auto;
 }
+
 p section {
 	height: 100%;
 	width: 100%;
@@ -34,7 +35,6 @@ h2,
 h3,
 h4 {
 	font-family: 'Quattrocento', serif;
-	/* font-family: 'Muli', sans-serif; */
 }
 
 h1 {
@@ -61,11 +61,6 @@ a:hover {
 a:visited {
 	color: var(--white);
 }
-
-/* .sectionTitle {
-	background: url('./images/headerImg.jpeg');
-	background-attachment: fixed;
-} */
 
 .sectionTitle h3,
 .sectionTitle h2 {
@@ -103,7 +98,8 @@ footer {
 
 	section,
 	footer {
-		width: 100%;
-		float: none;
+		width: 85%;
+		float: right;
+		padding: 0;
 	}
 }
