@@ -1,10 +1,12 @@
 .contact {
 	position: absolute;
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .contactPosition {
-	position: absolute;
+	position: fixed;
 	z-index: 99999998;
 	background-color: var(--black);
 	height: 100%;
@@ -16,12 +18,12 @@
 .contactActivate {
 	position: fixed;
 	z-index: 99999999;
-	height: 70px;
-	width: 70px;
+	height: 50px;
+	width: 50px;
 	background-color: var(--black);
 	background: url('../../images/icons/feather-pen.png') no-repeat #000;
 	background-position: center;
-	background-size: 40px;
+	background-size: 30px;
 	color: var(--white);
 	border-radius: 50%;
 	border: none;

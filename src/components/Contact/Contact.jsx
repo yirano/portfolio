@@ -8,7 +8,7 @@ class Contact extends Component {
 		email: '',
 		subject: '',
 		message: '',
-		contactActivate: false
+		contactActivate: true
 	};
 	handleSubmit(e) {
 		e.preventDefault();

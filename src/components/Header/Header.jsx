@@ -28,6 +28,7 @@ export class Header extends Component {
 				</button>
 
 				<nav className={this.state.menuActive ? 'responsiveNav' : null}>
+					<h3>y.</h3>
 					<ul className="socialLinks">
 						<li>
 							<a href="https://twitter.com/yiirano" target="_blank" rel="noopener noreferrer">
@@ -46,7 +47,6 @@ export class Header extends Component {
 						</li>
 					</ul>
 				</nav>
-				<h3>y.</h3>
 			</header>
 		);
 	}
