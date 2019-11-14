@@ -7,10 +7,6 @@ import Contact from './components/Contact/Contact';
 // import Footer from './components/Footer/Footer';
 
 export class App extends Component {
-	constructor() {
-		super();
-	}
-
 	render() {
 		return (
 			<div>

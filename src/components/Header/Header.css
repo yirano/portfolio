@@ -16,8 +16,9 @@ header {
 header h3 {
 	font-weight: 100;
 	position: relative;
-	left: 20px;
-	top: 20px;
+	/* left: 20px; */
+	/* top: 20px; */
+	padding-bottom: 20px;
 }
 
 header nav a,
@@ -40,7 +41,8 @@ nav {
 .socialLinks {
 	position: relative;
 	left: -10px;
-	align-self: center;
+	/* align-self: center; */
+	margin-top: 40px;
 	list-style-type: none;
 }
 

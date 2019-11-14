@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as emailjs from 'emailjs-com';
-import ContactIcon from '../../images/icons/feather.png';
+// import ContactIcon from '../../images/icons/feather.png';
 import './Contact.css';
 class Contact extends Component {
 	state = {
