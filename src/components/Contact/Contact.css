@@ -33,19 +33,6 @@
 	}
 }
 
-@keyframes bounce {
-	0% {
-		transform: scale(1);
-	}
-
-	50% {
-		transform: scale(1.2);
-	}
-
-	100% {
-		transform: scale(1);
-	}
-}
 .contact {
 	position: absolute;
 	height: 100vh;
@@ -64,6 +51,14 @@
 	animation: expand 400ms forwards;
 	bottom: 20px;
 	left: 20px;
+}
+
+.contactForm {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	overflow: hidden;
+	background-color: var(--black);
 }
 
 .minimizeContact {
@@ -85,11 +80,12 @@
 	background-position: center;
 	background-size: 30px;
 	color: var(--white);
+	background-color: var(--black);
+	border-radius: 50%;
 	border: none;
 	outline: none;
 	bottom: 20px;
 	left: 20px;
-	animation: bounce 2000ms infinite;
 }
 
 .contactHide {

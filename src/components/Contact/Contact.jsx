@@ -8,7 +8,8 @@ class Contact extends Component {
 		email: '',
 		subject: '',
 		message: '',
-		contactActivate: false
+		contactActivate: false,
+		hide: ''
 	};
 	handleSubmit(e) {
 		e.preventDefault();
@@ -41,15 +42,33 @@ class Contact extends Component {
 			return (prevState.contactActivate = !prevState.contactActivate);
 		});
 	};
+
+	componentWillMount() {
+		this.setState((prevState) => {
+			return !this.state.contactActivate ? (this.state.hide = { visibility: 'hidden' }) : null;
+		});
+	}
+
+	componentDidMount() {
+		this.setState((prevState) => {
+			prevState.hide = { visibility: 'visible' };
+		});
+	}
 	render() {
+		const buttonColor = {
+			backgroundColor: 'transparent'
+		};
 		return (
 			<section className="contact" id="contact">
-				{/* <div className="sectionTitle">
-					<h3>shoot me a message</h3>
-        </div> */}
-
-				<button className="contactActivate" onClick={this.handleClick} />
-				<div className={this.state.contactActivate ? 'expandContact' : 'minimizeContact'}>
+				<button
+					style={this.state.contactActivate ? { backgroundColor: 'transparent' } : null}
+					className="contactActivate"
+					onClick={this.handleClick}
+				/>
+				<div
+					style={this.state.hide}
+					className={this.state.contactActivate ? 'expandContact' : 'minimizeContact'}
+				>
 					<div className="contactFlexwrap">
 						<form onSubmit={this.handleSubmit.bind(this)}>
 							<div className="leftContact">
