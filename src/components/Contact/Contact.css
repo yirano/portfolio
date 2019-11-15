@@ -1,18 +1,36 @@
-.contact {
-	position: absolute;
-	height: 100%;
-	margin: 0;
-	padding: 0;
+@keyframes minimize {
+	0% {
+		height: 100%;
+		width: 100vw;
+		border-radius: 0%;
+	}
+	98% {
+		border-radius: 0%;
+	}
+	100% {
+		height: 50px;
+		border-radius: 50%;
+		width: 50px;
+	}
 }
 
-.contactPosition {
-	position: fixed;
-	z-index: 99999998;
-	background-color: var(--black);
-	height: 100%;
-	width: 100vw;
-	padding: 60px 40px;
-	opacity: 0.96;
+@keyframes expand {
+	0% {
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+	}
+	1% {
+		border-radius: 0%;
+	}
+	100% {
+		position: fixed;
+		height: 100vh;
+		width: 100%;
+		border-radius: 0%;
+		bottom: 0;
+		left: 0;
+	}
 }
 
 @keyframes bounce {
@@ -28,23 +46,49 @@
 		transform: scale(1);
 	}
 }
+.contact {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: 99999999;
+	margin: 0;
+	padding: 0;
+}
+
+.expandContact {
+	position: fixed;
+	padding: 60px 40px;
+	opacity: 0.96;
+	background-color: var(--black);
+	z-index: 999999;
+	animation: expand 400ms forwards;
+	bottom: 20px;
+	left: 20px;
+}
+
+.minimizeContact {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	overflow: hidden;
+	background-color: var(--black);
+	z-index: 999999;
+	animation: minimize 400ms forwards;
+}
 
 .contactActivate {
 	position: fixed;
 	z-index: 99999999;
 	height: 50px;
 	width: 50px;
-	background-color: var(--black);
-	background: url('../../images/icons/feather-pen.png') no-repeat #000;
+	background: url('../../images/icons/feather-pen.png') no-repeat;
 	background-position: center;
 	background-size: 30px;
 	color: var(--white);
-	border-radius: 50%;
 	border: none;
 	outline: none;
 	bottom: 20px;
 	left: 20px;
-
 	animation: bounce 2000ms infinite;
 }
 
@@ -97,7 +141,7 @@ textarea {
 }
 
 textarea {
-	height: 100%;
+	height: 70%;
 	width: 90%;
 	border: none;
 	font-size: 0.9em;

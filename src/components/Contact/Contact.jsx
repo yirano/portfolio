@@ -49,7 +49,7 @@ class Contact extends Component {
         </div> */}
 
 				<button className="contactActivate" onClick={this.handleClick} />
-				<div className={this.state.contactActive ? 'contactPosition' : 'contactHide'}>
+				<div className={this.state.contactActive ? 'expandContact' : 'minimizeContact'}>
 					<div className="contactFlexwrap">
 						<form onSubmit={this.handleSubmit.bind(this)}>
 							<div className="leftContact">
