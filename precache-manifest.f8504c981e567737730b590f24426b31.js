@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25d7f3bbffd23fba1c7c6ed8626cb67c",
+    "revision": "88f15db779b58fc0523413e535331951",
     "url": "/index.html"
   },
   {
-    "revision": "bc160073d39b0be1e9de",
-    "url": "/static/css/main.dc60a85e.chunk.css"
+    "revision": "b34baba02054633da672",
+    "url": "/static/css/main.fa435b59.chunk.css"
   },
   {
-    "revision": "bedcf064f58540671535",
-    "url": "/static/js/2.508fcd5a.chunk.js"
+    "revision": "9a89e02370d3b4a324d6",
+    "url": "/static/js/2.10965598.chunk.js"
   },
   {
-    "revision": "bc160073d39b0be1e9de",
-    "url": "/static/js/main.488d50bd.chunk.js"
+    "revision": "b34baba02054633da672",
+    "url": "/static/js/main.01cb32ae.chunk.js"
   },
   {
     "revision": "7d34b7a885d63b82ef0d",
@@ -52,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/feather-pen.08c89b0b.png"
   },
   {
-    "revision": "fac727bea2743d4a590c40b2e2dc18a5",
-    "url": "/static/media/feather.fac727be.png"
-  },
-  {
     "revision": "6d58394ecd15317e637b4a088206d52a",
     "url": "/static/media/github.6d58394e.svg"
   },
@@ -66,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "879abf58af986f7c9e1beb77fc1018ec",
     "url": "/static/media/newsweek.879abf58.png"
-  },
-  {
-    "revision": "0ae8e725f50a82eb69f15b3d21ffadee",
-    "url": "/static/media/self.0ae8e725.JPG"
   },
   {
     "revision": "e279f33f81cffb236db9e0216da2d97b",

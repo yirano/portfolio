@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc60a85e.chunk.css",
-    "main.js": "/static/js/main.488d50bd.chunk.js",
-    "main.js.map": "/static/js/main.488d50bd.chunk.js.map",
+    "main.css": "/static/css/main.fa435b59.chunk.css",
+    "main.js": "/static/js/main.01cb32ae.chunk.js",
+    "main.js.map": "/static/js/main.01cb32ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a93af8c9.js",
     "runtime-main.js.map": "/static/js/runtime-main.a93af8c9.js.map",
-    "static/js/2.508fcd5a.chunk.js": "/static/js/2.508fcd5a.chunk.js",
-    "static/js/2.508fcd5a.chunk.js.map": "/static/js/2.508fcd5a.chunk.js.map",
+    "static/js/2.10965598.chunk.js": "/static/js/2.10965598.chunk.js",
+    "static/js/2.10965598.chunk.js.map": "/static/js/2.10965598.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.82d8ccdaf493e2086a492cc152df535d.js": "/precache-manifest.82d8ccdaf493e2086a492cc152df535d.js",
+    "precache-manifest.f8504c981e567737730b590f24426b31.js": "/precache-manifest.f8504c981e567737730b590f24426b31.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.dc60a85e.chunk.css.map": "/static/css/main.dc60a85e.chunk.css.map",
+    "static/css/main.fa435b59.chunk.css.map": "/static/css/main.fa435b59.chunk.css.map",
     "static/media/Apple.jpg": "/static/media/Apple.66046f5a.jpg",
     "static/media/BaseApparel.jpg": "/static/media/BaseApparel.1cb8b8de.jpg",
     "static/media/BookmarkLP.jpg": "/static/media/BookmarkLP.2b67dc47.jpg",
@@ -19,18 +19,16 @@
     "static/media/LunaLiving.png": "/static/media/LunaLiving.a48363eb.png",
     "static/media/ProjectIntro.jpg": "/static/media/ProjectIntro.317df18a.jpg",
     "static/media/Contact.css": "/static/media/feather-pen.08c89b0b.png",
-    "static/media/feather.png": "/static/media/feather.fac727be.png",
     "static/media/github.svg": "/static/media/github.6d58394e.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.1fb77bbd.svg",
     "static/media/newsweek.png": "/static/media/newsweek.879abf58.png",
-    "static/media/self.JPG": "/static/media/self.0ae8e725.JPG",
     "static/media/twitter.svg": "/static/media/twitter.e279f33f.svg",
     "static/media/weddingPhotographer.png": "/static/media/weddingPhotographer.b9d8e028.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a93af8c9.js",
-    "static/js/2.508fcd5a.chunk.js",
-    "static/css/main.dc60a85e.chunk.css",
-    "static/js/main.488d50bd.chunk.js"
+    "static/js/2.10965598.chunk.js",
+    "static/css/main.fa435b59.chunk.css",
+    "static/js/main.01cb32ae.chunk.js"
   ]
 }
