@@ -43,9 +43,9 @@ class Contact extends Component {
 		});
 	};
 
-	componentWillMount() {
+	UNSAFE_componentWillMount() {
 		this.setState((prevState) => {
-			return !this.state.contactActivate ? (this.state.hide = { visibility: 'hidden' }) : null;
+			return !this.state.contactActivate ? (prevState.hide = { visibility: 'hidden' }) : null;
 		});
 	}
 
