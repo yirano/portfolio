@@ -37,7 +37,6 @@
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
-	z-index: 99999999;
 	margin: 0;
 	padding: 0;
 }
@@ -47,10 +46,10 @@
 	padding: 60px 40px;
 	opacity: 0.96;
 	background-color: var(--black);
-	z-index: 999999;
 	animation: expand 400ms forwards;
 	bottom: 20px;
 	left: 20px;
+	z-index: 9999999;
 }
 
 .contactForm {
@@ -67,7 +66,7 @@
 	left: 20px;
 	overflow: hidden;
 	background-color: var(--black);
-	z-index: 999999;
+	z-index: 9999999;
 	animation: minimize 400ms forwards;
 }
 
