@@ -19,36 +19,16 @@
 .quote {
 	font-family: 'Quattrocento', serif;
 	font-style: italic;
+	font-weight: 600;
 }
 
-/* @media only screen and (max-width: 1024px) {
-	.aboutTextWrap {
-		font-weight: 600;
-		font-size: 95%;
-		height: fit-content;
-	}
-
-	.aboutRightContent {
-		left: -28%;
-	}
-} */
-
 @media only screen and (max-width: 768px) {
-	.aboutLeftContent {
-		margin-left: 50px;
-		margin-top: 50px;
-	}
-
-	.aboutRightContent {
-		left: -35%;
-	}
-
-	.aboutRightContent h2 {
-		font-size: 2em;
-	}
-
 	.topContent h3 {
 		font-size: 1.2em;
+	}
+
+	.about {
+		padding: 20px;
 	}
 }
 
@@ -56,34 +36,5 @@
 	.about {
 		flex-flow: column;
 		align-items: center;
-	}
-
-	.aboutLeftContent,
-	.aboutRightContent {
-		width: 100%;
-		left: 0;
-		margin-left: 0;
-		max-width: 100%;
-	}
-
-	.aboutTextWrap {
-		text-align: center;
-		width: auto;
-		margin: 0;
-	}
-
-	.aboutTextWrap p {
-		position: relative;
-		width: 100%;
-		padding: 0 10px;
-	}
-
-	.profileImage {
-		width: 100%;
-		max-height: auto;
-	}
-
-	.socialLinks li {
-		display: inline-block;
 	}
 }

@@ -64,7 +64,6 @@ a:visited {
 
 .sectionTitle h3,
 .sectionTitle h2 {
-	display: flex;
 	background-color: #fff;
 	font-weight: 300;
 	color: black;
@@ -76,7 +75,7 @@ a:visited {
 	margin-bottom: 22px;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
 }
 
 section,
@@ -93,7 +92,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
 	.sectionTitle h3 {
-		font-size: 1.6em;
+		text-align: center;
 	}
 
 	section,
