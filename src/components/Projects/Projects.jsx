@@ -15,13 +15,6 @@ export class Projects extends Component {
 		};
 	}
 
-	handleClick = (id) => {
-		console.log('clicked');
-		this.setState((prevState) => {
-			return (prevState.cardActive = !prevState.cardActive);
-		});
-	};
-
 	render(props) {
 		const opacity = {
 			opacity: 1,

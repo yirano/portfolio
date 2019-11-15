@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './ProjectShelf.css';
 
 export class ProjectShelf extends Component {
+	handleClick = (id) => {
+		console.log(id);
+	};
 	render() {
 		return (
 			<section className="projectShelf">
