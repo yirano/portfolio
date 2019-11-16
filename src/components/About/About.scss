@@ -5,31 +5,31 @@
 	margin: 65px 0;
 	flex-flow: column;
 	padding: 90px 40px;
-}
 
-.topContent {
-	width: 90%;
-	line-height: 2.5em;
-}
+	.topContent {
+		width: 90%;
+		line-height: 2.5em;
 
-.topContent h4 {
-	font-weight: lighter;
-	letter-spacing: 0.007em;
-}
+		h4 {
+			font-weight: lighter;
+			letter-spacing: 0.007em;
+		}
 
-.quote {
-	font-family: $font-header;
-	font-style: italic;
-	font-weight: 600;
+		.quote {
+			font-family: $font-header;
+			font-style: italic;
+			font-weight: 600;
+		}
+	}
 }
 
 @media only screen and (max-width: 768px) {
-	.topContent h4 {
-		font-size: 1.2em;
-	}
-
 	.about {
 		padding: 20px;
+
+		.topContent h4 {
+			font-size: 1.2em;
+		}
 	}
 }
 

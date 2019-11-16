@@ -41,126 +41,128 @@
 	width: 100vw;
 	margin: 0;
 	padding: 0;
-}
 
-.expandContact {
-	position: fixed;
-	padding: 60px 40px;
-	opacity: 0.96;
-	background-color: $black;
-	animation: expand 400ms forwards;
-	bottom: 20px;
-	left: 20px;
-	z-index: 9999999;
-}
+	.expandContact {
+		position: fixed;
+		padding: 60px 40px;
+		opacity: 0.96;
+		background-color: $black;
+		animation: expand 400ms forwards;
+		bottom: 20px;
+		left: 20px;
+		z-index: 9999999;
+	}
 
-.minimizeContact {
-	position: fixed;
-	bottom: 20px;
-	left: 20px;
-	overflow: hidden;
-	background-color: $black;
-	z-index: 9999999;
-	animation: minimize 400ms forwards;
-}
+	.minimizeContact {
+		position: fixed;
+		bottom: 20px;
+		left: 20px;
+		overflow: hidden;
+		background-color: $black;
+		z-index: 9999999;
+		animation: minimize 400ms forwards;
+	}
 
-.contactActivate {
-	position: fixed;
-	z-index: 99999999;
-	height: 50px;
-	width: 50px;
-	background: url('../../images/icons/feather-pen.png') no-repeat;
-	background-position: center;
-	background-size: 30px;
-	color: $off-white;
-	background-color: $black;
-	border-radius: 50%;
-	border: none;
-	outline: none;
-	bottom: 20px;
-	left: 20px;
+	.contactActivate {
+		position: fixed;
+		z-index: 99999999;
+		height: 50px;
+		width: 50px;
+		background: url('../../images/icons/feather-pen.png') no-repeat;
+		background-position: center;
+		background-size: 30px;
+		color: $off-white;
+		background-color: $black;
+		border-radius: 50%;
+		border: none;
+		outline: none;
+		bottom: 20px;
+		left: 20px;
+	}
 }
 
 .contactFlexwrap {
 	padding: 50px 0;
 	height: 600px;
 	display: flex;
-}
 
-form {
-	display: flex;
-	width: 100%;
-	margin: 0 auto;
-}
+	form {
+		display: flex;
+		width: 100%;
+		margin: 0 auto;
 
-.leftContact {
-	flex-basis: 50%;
-	text-align: center;
-	border-right: 1px solid #dadada;
-}
+		.leftContact {
+			flex-basis: 50%;
+			text-align: center;
+			border-right: 1px solid #dadada;
 
-.rightContact {
-	position: relative;
-	flex-basis: 50%;
-}
+			input {
+				display: block;
+				height: 30px;
+				width: 80%;
+				padding: 16px 12px;
+				border: 1px solid transparent;
+				border-bottom: 1px solid #dadada;
+				outline: none;
+				margin: 20px auto;
+				line-height: 2.4em;
+				font-size: 0.8em;
+				letter-spacing: 0.07em;
+				color: $off-white;
+				background-color: $black;
+			}
+		}
 
-input,
-textarea {
-	display: block;
-	height: 30px;
-	width: 80%;
-	padding: 16px 12px;
-	border: 1px solid transparent;
-	border-bottom: 1px solid #dadada;
-	outline: none;
-	margin: 20px auto;
-	line-height: 2.4em;
-	font-size: 0.8em;
-	letter-spacing: 0.07em;
-	color: $off-white;
-	background-color: $black;
-}
+		.rightContact {
+			position: relative;
+			flex-basis: 50%;
 
-::placeholder {
-	color: rgb(182, 182, 182);
-}
+			textarea {
+				display: block;
+				height: 100%;
+				width: 90%;
+				outline: none;
+				margin: 20px auto;
+				padding: 16px 12px;
+				border: none;
+				font-size: 0.9em;
+				line-height: 2.4em;
+				letter-spacing: 0.07em;
+				resize: none;
+				color: $off-white;
+				background-color: $black;
+			}
+			button {
+				position: absolute;
+				bottom: 0;
+				height: 50px;
+				background-color: $off-white;
+				width: 100%;
+				border: transparent;
+				color: $black;
+				text-transform: uppercase;
+				outline: none;
+			}
+		}
+	}
 
-textarea {
-	height: 100%;
-	width: 90%;
-	border: none;
-	font-size: 0.9em;
-	resize: none;
-	background-color: $black;
-}
-
-form button {
-	position: absolute;
-	bottom: 0;
-	height: 50px;
-	background-color: $off-white;
-	width: 100%;
-	border: transparent;
-	color: $black;
-	text-transform: uppercase;
-	outline: none;
+	::placeholder {
+		color: rgb(182, 182, 182);
+	}
 }
 
 @media only screen and (max-width: 967px) {
-	form {
-		flex-flow: column;
-	}
-
-	.leftContact {
-		border-right: none;
+	.contactFlexwrap {
+		form {
+			flex-flow: column;
+			.leftContact {
+				border-right: none;
+			}
+		}
 	}
 }
 
 @media only screen and (max-width: 767px) {
-	.contactContainer {
-		padding: 0;
-	}
-
 	input,
 	textarea {
 		width: 100%;
