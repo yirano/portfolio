@@ -21,12 +21,6 @@ export class Header extends Component {
 	render() {
 		return (
 			<header>
-				<button onClick={this.menuActive} className="hamburgerMenu">
-					<span />
-					<span />
-					<span />
-				</button>
-
 				<nav>
 					<ul className="socialLinks">
 						<h3>y.</h3>

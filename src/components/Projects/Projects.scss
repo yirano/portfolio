@@ -10,96 +10,94 @@
 	}
 }
 
-.projectShelf {
+.projects {
 	align-items: center;
 	padding-bottom: 120px;
-}
 
-.projectBook {
-	columns: 3;
-	column-gap: 3px;
-}
+	.projectShelf {
+		columns: 3;
+		column-gap: 3px;
 
-.projectShelfCard {
-	position: relative;
-	break-inside: avoid;
-	justify-content: center;
-	height: 100%;
-	z-index: 9999999;
-}
+		.projectCards {
+			position: relative;
+			break-inside: avoid;
+			justify-content: center;
+			height: 100%;
+			z-index: 9999999;
 
-.projectShelfCard img {
-	width: 100%;
+			img {
+				width: 100%;
+			}
+
+			.projectCardText {
+				position: absolute;
+				top: 0;
+				padding: 7px 12px;
+				opacity: 0;
+				font-family: $font-body;
+				transition: all 500ms;
+				width: 100%;
+
+				.projectCardTitle {
+					margin-top: 9px;
+					margin-bottom: 4px;
+					padding-bottom: 9px;
+					text-align: center;
+					text-transform: uppercase;
+					letter-spacing: 0.1em;
+					font-size: 0.9em;
+					font-weight: 600;
+					font-family: $font-body;
+					border-bottom: 1px solid rgba(192, 192, 192, 0.548);
+				}
+				.projectDesc {
+					font-size: 0.89em;
+					margin-bottom: 13px;
+					color: $dark-gray;
+					letter-spacing: 0.09em;
+					line-height: 1.3em;
+					height: 139px;
+					overflow-y: scroll;
+					padding: 0 8px;
+				}
+			}
+			.projectCardLinks {
+				position: absolute;
+				bottom: 20px;
+				right: 40px;
+				list-style: none;
+				opacity: 0;
+
+				li {
+					display: inline-block;
+					padding: 6px 12px;
+				}
+
+				a {
+					text-decoration: none;
+					font-size: 0.7em;
+					text-transform: uppercase;
+					letter-spacing: 0.16em;
+					color: $black;
+				}
+
+				a::after {
+					content: '';
+					display: table;
+					width: 116%;
+					height: 9px;
+					border-bottom: 6px solid #f2d4929f;
+					margin-top: -15px;
+					margin-left: -5px;
+				}
+			}
+		}
+	}
 }
 
 .cardFlip {
 	animation: opac 500ms forwards;
 	-webkit-animation: opac 500ms forwards;
-}
-
-.projectCardText {
-	position: absolute;
-	top: 0;
-	padding: 7px 12px;
-	opacity: 0;
-	font-family: $font-body;
-	transition: all 500ms;
-	width: 100%;
-}
-
-.projectCardTitle {
-	margin-top: 9px;
-	margin-bottom: 4px;
-	padding-bottom: 9px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-size: 0.9em;
-	font-weight: 600;
-	font-family: $font-body;
-	border-bottom: 1px solid rgba(192, 192, 192, 0.548);
-}
-
-.projectDesc {
-	font-size: 0.89em;
-	margin-bottom: 13px;
-	color: $dark-gray;
-	letter-spacing: 0.09em;
-	line-height: 1.3em;
-	height: 139px;
-	overflow-y: scroll;
-	padding: 0 8px;
-}
-
-.projectCardList {
-	position: absolute;
-	bottom: 20px;
-	right: 40px;
-	list-style: none;
-	opacity: 0;
-}
-
-.projectCardList li {
-	display: inline-block;
-	padding: 6px 12px;
-}
-
-.projectCardList a {
-	text-decoration: none;
-	font-size: 0.7em;
-	text-transform: uppercase;
-	letter-spacing: 0.16em;
-	color: $black;
-}
-
-.projectCardList a::after {
-	content: '';
-	display: table;
-	width: 116%;
-	height: 9px;
-	border-bottom: 6px solid #f2d4929f;
-	margin-top: -15px;
-	margin-left: -5px;
 }
 
 @media only screen and (min-width: 1441px) {
@@ -109,20 +107,22 @@
 }
 
 @media only screen and (max-width: 1024px) {
-	.projectCardText {
-		padding: 15px 20px;
-	}
-	.projectBook {
-		columns: 2;
+	.projects {
+		.projectShelf {
+			columns: 2;
+			.projectCards {
+				.projectCardText {
+					padding: 15px 20px;
+				}
+			}
+		}
 	}
 }
 
 @media only screen and (max-width: 767px) {
-	.projectDesc {
-		font-size: 0.8em;
-	}
-
-	.projectBook {
-		columns: 1;
+	.projects {
+		.projectShelf {
+			columns: 1;
+		}
 	}
 }

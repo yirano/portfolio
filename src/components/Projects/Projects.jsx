@@ -31,16 +31,16 @@ export class Projects extends Component {
 		};
 
 		return (
-			<section className="projectShelf" id="projects">
+			<section className="projects" id="projects">
 				<div className="sectionTitle">
 					<h4>selected works</h4>
 				</div>
-				<div className="projectBook">
+				<div className="projectShelf">
 					{this.state.projects.map(
 						({ id, image, projectName, active, projectGit, projectURL, projectLang, projectDesc }) => (
 							<div
 								key={id}
-								className="projectShelfCard"
+								className="projectCards"
 								onMouseEnter={() => this.flip(id)}
 								onMouseLeave={() => this.flip(id)}
 							>
@@ -50,7 +50,7 @@ export class Projects extends Component {
 									<p className="projectDesc">{projectDesc}</p>
 								</div>
 
-								<ul className="projectCardList" style={active ? opacity : null}>
+								<ul className="projectCardLinks" style={active ? opacity : null}>
 									<li>
 										<a href={projectURL} target="_blank" rel="noopener noreferrer">
 											Live Page
