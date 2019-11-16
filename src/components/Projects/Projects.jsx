@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import projects from './project-components/ProjectLibrary';
-import './Projects.css';
+import './Projects.scss';
 
 export class Projects extends Component {
 	constructor() {
@@ -33,7 +33,7 @@ export class Projects extends Component {
 		return (
 			<section className="projectShelf" id="projects">
 				<div className="sectionTitle">
-					<h3>selected works</h3>
+					<h4>selected works</h4>
 				</div>
 				<div className="projectBook">
 					{this.state.projects.map(

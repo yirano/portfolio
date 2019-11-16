@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Github from '../../images/SVG/github.svg';
 import LinkedIn from '../../images/SVG/linkedin.svg';
 import Twitter from '../../images/SVG/twitter.svg';
-import './Header.css';
+import './Header.scss';
 
 export class Header extends Component {
 	constructor() {

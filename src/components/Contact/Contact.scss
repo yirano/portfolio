@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 @keyframes minimize {
 	0% {
 		height: 100%;
@@ -45,19 +47,11 @@
 	position: fixed;
 	padding: 60px 40px;
 	opacity: 0.96;
-	background-color: var(--black);
+	background-color: $black;
 	animation: expand 400ms forwards;
 	bottom: 20px;
 	left: 20px;
 	z-index: 9999999;
-}
-
-.contactForm {
-	position: fixed;
-	bottom: 20px;
-	left: 20px;
-	overflow: hidden;
-	background-color: var(--black);
 }
 
 .minimizeContact {
@@ -65,7 +59,7 @@
 	bottom: 20px;
 	left: 20px;
 	overflow: hidden;
-	background-color: var(--black);
+	background-color: $black;
 	z-index: 9999999;
 	animation: minimize 400ms forwards;
 }
@@ -78,17 +72,13 @@
 	background: url('../../images/icons/feather-pen.png') no-repeat;
 	background-position: center;
 	background-size: 30px;
-	color: var(--white);
-	background-color: var(--black);
+	color: $off-white;
+	background-color: $black;
 	border-radius: 50%;
 	border: none;
 	outline: none;
 	bottom: 20px;
 	left: 20px;
-}
-
-.contactHide {
-	display: none;
 }
 
 .contactFlexwrap {
@@ -127,8 +117,8 @@ textarea {
 	line-height: 2.4em;
 	font-size: 0.8em;
 	letter-spacing: 0.07em;
-	color: var(--white);
-	background-color: var(--black);
+	color: $off-white;
+	background-color: $black;
 }
 
 ::placeholder {
@@ -141,17 +131,17 @@ textarea {
 	border: none;
 	font-size: 0.9em;
 	resize: none;
-	background-color: var(--black);
+	background-color: $black;
 }
 
 form button {
 	position: absolute;
 	bottom: 0;
 	height: 50px;
-	background-color: var(--white);
+	background-color: $off-white;
 	width: 100%;
 	border: transparent;
-	color: var(--black);
+	color: $black;
 	text-transform: uppercase;
 	outline: none;
 }

@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 @keyframes opac {
 	0% {
 		opacity: 1;
@@ -42,6 +44,7 @@
 	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
 	transition: all 500ms;
+	width: 100%;
 }
 
 .projectCardTitle {
@@ -60,7 +63,7 @@
 .projectDesc {
 	font-size: 0.89em;
 	margin-bottom: 13px;
-	color: var(--dark-gray);
+	color: $dark-gray;
 	letter-spacing: 0.09em;
 	line-height: 1.3em;
 	height: 139px;
@@ -86,7 +89,7 @@
 	font-size: 0.7em;
 	text-transform: uppercase;
 	letter-spacing: 0.16em;
-	color: var(--black);
+	color: $black;
 }
 
 .projectCardList a::after {

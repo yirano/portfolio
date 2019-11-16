@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import './Skills.scss';
 import HTMLCSS from '../../images/icons/htmlcss.png';
 import ReactIcon from '../../images/icons/react.png';
 import Illustrator from '../../images/icons/illustrator.png';

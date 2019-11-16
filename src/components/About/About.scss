@@ -10,8 +10,7 @@
 	line-height: 2.5em;
 }
 
-.topContent h3 {
-	font-size: 1.5em;
+.topContent h4 {
 	font-weight: lighter;
 	letter-spacing: 0.007em;
 }
@@ -23,7 +22,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-	.topContent h3 {
+	.topContent h4 {
 		font-size: 1.2em;
 	}
 
