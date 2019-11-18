@@ -7,17 +7,28 @@ import FashionBlog from '../../../images/projectImgs/FashionBlog.jpg';
 import LunaLiving from '../../../images/projectImgs/LunaLiving.png';
 import NewsWeek from '../../../images/projectImgs/newsweek.png';
 import Wedding from '../../../images/projectImgs/weddingPhotographer.png';
+import eVu from '../../../images/projectImgs/eVu.png';
 
 const projectLibrary = [
 	{
-		id: 6,
-		image: LunaLiving,
-		projectName: 'Luna Life',
-		projectGit: 'https://github.com/yirano/react-luna_living',
-		projectURL: 'https://yirano.github.io/react-luna_living/',
-		projectLang: [ 'html', 'css', 'javascript', 'react', 'illustrator' ],
+		id: 9,
+		image: eVu,
+		projectName: 'eVu',
+		projectGit: 'https://github.com/yirano/react-eve_vu',
+		projectURL: 'https://yirano.github.io/react-eve_vu/',
+		projectLang: [ 'html', 'css', 'react', 'illustrator', 'sass' ],
 		projectDesc:
-			'This was the first project that I researched, designed, and developed. The timeframe from learning the basic fundamentals of design to familiarizing myself with Adobe Illustrator to its final deployment was a span of four days. (~33hrs)',
+			'My second and most recent design, this is a project that is currently being developed. The prospective client would be a photographer focused on showcasing their portfolio. Very minimal in design and layout, the goal is to bring the attention to the images without clutter, with CSS animations to give it a personality. '
+	},
+	{
+		id: 1,
+		image: FourCard,
+		projectName: 'Four Card Feature',
+		projectGit: 'https://github.com/yirano/frontend-four_card_feature',
+		projectURL: 'https://yirano.github.io/frontend-four_card_feature/src/',
+		projectLang: [ 'html', 'css', 'javascript' ],
+		projectDesc:
+			"This was the first challenge I completed from Frontend Mentor's list. Subtle animations were added to give it a touch of creativity.",
 		active: false
 	},
 	{
@@ -31,16 +42,17 @@ const projectLibrary = [
 		active: false
 	},
 	{
-		id: 1,
-		image: FourCard,
-		projectName: 'Four Card Feature',
-		projectGit: 'https://github.com/yirano/frontend-four_card_feature',
-		projectURL: 'https://yirano.github.io/frontend-four_card_feature/src/',
-		projectLang: [ 'html', 'css', 'javascript' ],
+		id: 6,
+		image: LunaLiving,
+		projectName: 'Luna Life',
+		projectGit: 'https://github.com/yirano/react-luna_living',
+		projectURL: 'https://yirano.github.io/react-luna_living/',
+		projectLang: [ 'html', 'css', 'javascript', 'react', 'illustrator' ],
 		projectDesc:
-			"This was the first challenge I completed from Frontend Mentor's list. Subtle animations were added to give it a touch of creativity.",
+			'This was the first project that I researched, designed, and developed. The timeframe from learning the basic fundamentals of design to familiarizing myself with Adobe Illustrator to its final deployment was a span of four days. (~33hrs)',
 		active: false
 	},
+
 	{
 		id: 2,
 		image: BaseApparel,
