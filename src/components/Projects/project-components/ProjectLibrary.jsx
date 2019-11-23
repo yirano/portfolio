@@ -7,18 +7,17 @@ import FashionBlog from '../../../images/projectImgs/FashionBlog.jpg';
 import LunaLiving from '../../../images/projectImgs/LunaLiving.png';
 import NewsWeek from '../../../images/projectImgs/newsweek.png';
 import Wedding from '../../../images/projectImgs/weddingPhotographer.png';
-import eVu from '../../../images/projectImgs/eVu.png';
+import API from '../../../images/projectImgs/API.png';
 
 const projectLibrary = [
 	{
 		id: 9,
-		image: eVu,
-		projectName: 'eVu',
-		projectGit: 'https://github.com/yirano/react-eve_vu',
-		projectURL: 'https://yirano.github.io/react-eve_vu/',
-		projectLang: [ 'html', 'css', 'react', 'illustrator', 'sass' ],
-		projectDesc:
-			'My second and most recent design, this is a project that is currently being developed. The prospective client would be a photographer focused on showcasing their portfolio. Very minimal in design and layout, the goal is to bring the attention to the images without clutter, with CSS animations to give it a personality. '
+		image: API,
+		projectName: 'URL Shortener',
+		projectGit: 'https://github.com/yirano/react-api_lp',
+		projectURL: 'https://yirano.github.io/react-api_lp',
+		projectLang: [ 'html', 'css', 'react', 'sass' ],
+		projectDesc: 'This project is currently being developed.'
 	},
 	{
 		id: 1,
